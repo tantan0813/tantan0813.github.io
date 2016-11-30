@@ -73,5 +73,5 @@ theme: aero-dual
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repository: https://github.com/tantan0813/Blog.git
+  repository: https://github.com/tantan0813/tantan0813.github.io.git
   branch: master
