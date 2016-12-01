@@ -11,9 +11,10 @@ body {
   width: 80%;
   min-width: 1000px;
   margin: 40px auto 0;
+  font-family: "Cambria Math";
   background-image: url("../../img/bg-main-2.jpg");
   background-size: cover !important;
-  height: 400px;
+  height: 340px;
   border: 2px solid black;
   border-radius: 8px;
   position: relative;
@@ -52,6 +53,7 @@ body {
   position: absolute;
   top: 60px;
   left: 20px;
+  display: none;
 }
 .top .text_03 {
   padding: 2px 4px;
@@ -61,6 +63,7 @@ body {
   position: absolute;
   top: 100px;
   left: 740px;
+  display: none;
 }
 nav {
   border-radius: 8px;
