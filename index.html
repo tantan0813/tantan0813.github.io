@@ -9,17 +9,20 @@
 <body>
 <section id="top" class="top">
     <b>E-mail:tan19950813@163.com</b>
-    <div class="text">just do it !</div>
+    <div class="text text_01">just do it !</div>
+    <div class="text text_02">Do what you want to do!</div>
+    <div class="text text_03">Right Now!</div>
 </section>
 <nav>
     <ul>
+        <li  onclick="javascript:document.getElementById('self').scrollIntoView()">Self</li>
         <li  onclick="javascript:document.getElementById('skill').scrollIntoView()">Skill</li>
         <li  onclick="javascript:document.getElementById('article').scrollIntoView()">Article</li>
         <li  onclick="javascript:document.getElementById('others').scrollIntoView()">Others</li>
         <li  onclick="javascript:document.getElementById('top').scrollIntoView()">Top</li>
     </ul>
 </nav>
-<section class="self">
+<section class="self" id="self">
     <h2>Self introduction:</h2>
     <p>带有轻微强迫症的二货青年，过几年就不脆了，我也不再是青年，但至少现在我们正青春。</p>
     <p>青铜战五渣的坑货，但是仍旧沉浸在游戏的世界里劳民伤财并乐此不疲。</p>
@@ -27,8 +30,52 @@
     <p>总之，我只希望做一个认认真真快快乐乐的普通人，更准确一点开心的二货程序狗，加油！！！</p>
     <p>最后，立个flag，10年以后我要自己还认识自己！</p>
 </section>
-<section class="middle_01" id="skill"></section>
+<section class="middle_01" id="skill">
+    <div class="html">
+        <p>html/css</p>
+        <div class="big">
+            <div class="small"></div>
+        </div>
+    </div>
+    <div class="html-05">
+        <p>html5/css3</p>
+        <div class="big">
+            <div class="small"></div>
+        </div>
+    </div>
+    <div class="less">
+        <p>less/sass</p>
+        <div class="big">
+            <div class="small"></div>
+        </div>
+    </div>
+    <div class="javascript">
+    <p>JavaScript</p>
+        <div class="big">
+            <div class="small"></div>
+        </div>
+    </div>
+    <div class="jquery">
+        <p>Jquery</p>
+        <div class="big">
+            <div class="small"></div>
+        </div>
+    </div>
+    <div class="grunt">
+        <p>grunt/gulp</p>
+        <div class="big">
+            <div class="small"></div>
+        </div>
+    </div>
+    <div class="mysql">
+        <p>MySQL</p>
+        <div class="big">
+            <div class="small"></div>
+        </div>
+    </div>
+</section>
 <section class="middle_02" id="article"></section>
 <section class="middle_03" id="others"></section>
 </body>
+<script src="js/es/index.js" type="text/javascript"></script>
 </html>
