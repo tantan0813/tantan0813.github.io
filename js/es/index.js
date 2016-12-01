@@ -22,6 +22,6 @@ window.onload = function(){
                 textIndex = selectfrom (0,3);
             // text[textIndex].style.display=="none" && text[textIndex].style.display="block" ;
             text[textIndex].style.display=="none" ? text[textIndex].style.display="block" :text[textIndex].style.display="none";
-        },8000);
+        },2000);
     }
 }
