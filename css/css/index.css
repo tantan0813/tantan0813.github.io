@@ -40,7 +40,6 @@ body {
 }
 .top .text:hover {
   background: white;
-  opacity: 0.4;
   color: red;
   border: none;
   font-size: 46px;
