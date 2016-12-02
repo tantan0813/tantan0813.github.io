@@ -24,4 +24,15 @@ window.onload = function(){
             text[textIndex].style.display=="none" ? text[textIndex].style.display="block" :text[textIndex].style.display="none";
         },2000);
     };
+    //花瓣效果
+    flower();
+    function flower() {
+        $(document).snowfall('clear');
+        $(document).snowfall({
+            image: "img/huaban.png",
+            flakeCount:10,
+            minSize: 5,
+            maxSize: 22,
+        });
+    }
     }

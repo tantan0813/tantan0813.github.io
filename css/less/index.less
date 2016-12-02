@@ -21,11 +21,16 @@ body{
   top: 0;
   left: 0;
   b{
+    display: block;
     position: absolute;
     top:40px;
     right:20px;
     color:lightskyblue;
     font-size: 18px;
+    &:hover{
+      text-shadow:4px 4px 4px black;
+      cursor: pointer;
+    }
   }
   .text{
     border:2px solid black;
@@ -181,7 +186,7 @@ nav{
 }
 @keyframes play{
   from {transform: rotate(0);}
-  to {transform: rotate(360deg);}
+  to {transform: rotate(720deg);}
 }
 .middle_03{
   width: 80%;
@@ -241,6 +246,9 @@ footer{
       position:absolute;
       top: 22px;
       right: 34%;
+      &:hover{
+        opacity: 0.6;
+      }
     }
   }
 

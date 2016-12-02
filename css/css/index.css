@@ -22,11 +22,16 @@ body {
   left: 0;
 }
 .top b {
+  display: block;
   position: absolute;
   top: 40px;
   right: 20px;
   color: lightskyblue;
   font-size: 18px;
+}
+.top b:hover {
+  text-shadow: 4px 4px 4px black;
+  cursor: pointer;
 }
 .top .text {
   border: 2px solid black;
@@ -207,8 +212,8 @@ nav li:hover {
             transform: rotate(0);
   }
   to {
-    -webkit-transform: rotate(360deg);
-            transform: rotate(360deg);
+    -webkit-transform: rotate(720deg);
+            transform: rotate(720deg);
   }
 }
 @keyframes play {
@@ -217,8 +222,8 @@ nav li:hover {
             transform: rotate(0);
   }
   to {
-    -webkit-transform: rotate(360deg);
-            transform: rotate(360deg);
+    -webkit-transform: rotate(720deg);
+            transform: rotate(720deg);
   }
 }
 .middle_03 {
@@ -283,4 +288,7 @@ footer a img {
   position: absolute;
   top: 22px;
   right: 34%;
+}
+footer a img:hover {
+  opacity: 0.6;
 }
