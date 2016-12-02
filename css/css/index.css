@@ -271,10 +271,10 @@ footer {
   left: 0;
 }
 footer p {
-  width: 120px;
+  width: 280px;
   position: absolute;
   top: 26px;
-  left: 36%;
+  left: 30%;
   font-size: 18px;
 }
 footer a {

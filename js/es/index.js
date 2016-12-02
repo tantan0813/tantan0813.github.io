@@ -30,7 +30,7 @@ window.onload = function(){
         $(document).snowfall('clear');
         $(document).snowfall({
             image: "img/huaban.png",
-            flakeCount:10,
+            flakeCount:6,
             minSize: 5,
             maxSize: 22,
         });
