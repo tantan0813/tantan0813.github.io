@@ -2,6 +2,7 @@
  * Created by tanmi on 2016/12/1.
  */
 window.onload = function(){
+    //换背景图
     change_main_bg();
     function change_main_bg(){
         //取随机数
@@ -14,7 +15,6 @@ window.onload = function(){
           var bg = document.getElementsByClassName("top")[0],
               bgIndex = selectfrom (1,10);
             bg.style.background="url(img/bg-main-"+bgIndex+".jpg)";
-            text[textIndex].style.display=="none" ? text[textIndex].style.display="block" :text[textIndex].style.display="none";
         },6000);
         //文字框定时器
         setInterval(function (){
@@ -23,5 +23,5 @@ window.onload = function(){
             // text[textIndex].style.display=="none" && text[textIndex].style.display="block" ;
             text[textIndex].style.display=="none" ? text[textIndex].style.display="block" :text[textIndex].style.display="none";
         },2000);
+    };
     }
-}
