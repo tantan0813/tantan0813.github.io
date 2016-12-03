@@ -84,6 +84,27 @@ nav li:hover {
   color: white;
   font-size: 20px;
 }
+.github_icon {
+  display: block;
+  width: 80px;
+  height: 80px;
+  position: fixed;
+  top: 24%;
+  left: 14px;
+}
+.github_icon img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  opacity: .4;
+}
+.github_icon:hover {
+  width: 100px;
+  height: 100px;
+}
+.github_icon:hover img {
+  opacity: 1;
+}
 .self {
   width: 80%;
   min-width: 1000px;
