@@ -75,6 +75,7 @@ nav {
   position: fixed;
   top: 40%;
   left: 10px;
+  padding: 4px 0;
 }
 nav li {
   padding: 4px 20px;
