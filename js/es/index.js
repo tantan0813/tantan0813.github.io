@@ -35,6 +35,36 @@ window.onload = function() {
             maxSize: 22,
         });
     }
+    //锚点高亮追随
+    linght();
+    function linght(){
+        scrollFunc = function(){
+            var scrollTop=0,
+                i = 0;
+            if(document.documentElement&&document.documentElement.scrollTop) {
+                scrollTop=document.documentElement.scrollTop;
+            } else if(document.body) {
+                scrollTop=document.body.scrollTop;
+            }
+            console.log(scrollTop)
+            if(scrollTop>100 && scrollTop<200){
+               i = 1;
+            }else if(scrollTop>200 && scrollTop<600){
+                i = 2;
+            }else if(scrollTop>600 && scrollTop<900){
+                i = 3;
+            }else if(scrollTop>900 && scrollTop<1300){
+                i = 4;
+            }else if(scrollTop>1300 && scrollTop<1600){
+                i = 5;
+            }
+            $(".light").eq(i).addClass("active").siblings().removeClass("active")
+        }
+        if(document.addEventListener){
+            document.addEventListener('DOMMouseScroll',scrollFunc,false);
+        }//W3C
+        window.onmousewheel=document.onmousewheel=scrollFunc;//IE/Opera/Chrome
+    }
 }
 
 

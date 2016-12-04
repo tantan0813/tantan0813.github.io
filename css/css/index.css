@@ -85,6 +85,10 @@ nav li:hover {
   color: white;
   font-size: 20px;
 }
+nav li.active {
+  color: white;
+  font-size: 20px;
+}
 .github_icon {
   display: block;
   width: 80px;
