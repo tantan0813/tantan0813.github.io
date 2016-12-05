@@ -4,33 +4,33 @@ layout: default
 <section class="middle_02" id="article">
     <div class="left">
         <h2>文章列表</h2>
-        <div class="all-posts" post-cate="All">
-            {% for post in site.posts %}
-            <a class="post-list-item" href="{{ post.url | prepend: site.baseurl }}">
-                <h2>
-                    {{ post.title }}
-                </h2>
-                <span class="">{{ post.date | date: "%b %-d, %Y" }}</span>
-            </a>
-            {% endfor %}
-        </div>
-        <!-- <div class="posts-in-categories"> -->
-        {% for category in site.categories %}
-        <div post-cate="{{category | first}}">
-            {% for posts in category  %}
-            {% for post in posts %}
-            {% if post.url %}
-            <a href="{{ post.url }}" class="post-list-item">
-                <h2>
-                    {{ post.title }}
-                </h2>
-                <span class="">{{ post.date | date: "%b %-d, %Y" }}</span>
-            </a>
-            {% endif %}
-            {% endfor %}
-            {% endfor %}
-        </div>
-        {% endfor %}
+        <!--<div class="all-posts" post-cate="All">-->
+            <!--{% for post in site.posts %}-->
+            <!--<a class="post-list-item" href="{{ post.url | prepend: site.baseurl }}">-->
+                <!--<h2>-->
+                    <!--{{ post.title }}-->
+                <!--</h2>-->
+                <!--<span class="">{{ post.date | date: "%b %-d, %Y" }}</span>-->
+            <!--</a>-->
+            <!--{% endfor %}-->
+        <!--</div>-->
+        <!--&lt;!&ndash; <div class="posts-in-categories"> &ndash;&gt;-->
+        <!--{% for category in site.categories %}-->
+        <!--<div post-cate="{{category | first}}">-->
+            <!--{% for posts in category  %}-->
+            <!--{% for post in posts %}-->
+            <!--{% if post.url %}-->
+            <!--<a href="{{ post.url }}" class="post-list-item">-->
+                <!--<h2>-->
+                    <!--{{ post.title }}-->
+                <!--</h2>-->
+                <!--<span class="">{{ post.date | date: "%b %-d, %Y" }}</span>-->
+            <!--</a>-->
+            <!--{% endif %}-->
+            <!--{% endfor %}-->
+            <!--{% endfor %}-->
+        <!--</div>-->
+        <!--{% endfor %}-->
 
         <div class="article_all">
             <div class="article">
