@@ -2,8 +2,7 @@
  * Created by tanmi on 2016/12/1.
  */
 window.onload = function() {
-     // 在新窗口中打开 
-    addBlankTargetForLinks ();
+     // 在新窗口中打开
     function addBlankTargetForLinks () {
         $('a[href^="http"]').each(function(){
             $(this).attr('target', '_blank');
