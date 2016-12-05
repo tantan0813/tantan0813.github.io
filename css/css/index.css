@@ -372,8 +372,8 @@ nav li.active {
 }
 .middle_02 .right {
   position: absolute;
-  top: 40px;
-  right: 40px;
+  top: -10px;
+  right: -220px;
 }
 .middle_02 .right p {
   width: 160px;
