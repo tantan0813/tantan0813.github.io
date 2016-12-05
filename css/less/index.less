@@ -209,7 +209,7 @@ nav{
 }
 .middle_02{
   width: 80%;
-  height: 800px;
+  height: 880px;
   min-width: 1000px;
   margin:20px auto ;
   border-radius: 14px;
@@ -218,20 +218,118 @@ nav{
   position: relative;
   top: 0;
   left: 0;
+  text-align: center;
   .left{
     width: 74%;
-    height: 90%;
-    background: white;
+    height: 94%;
+    background: #FAF8ED;
     position: absolute;
-    top: 40px;
+    top: 20px;
     left: 30px;
     box-shadow:5px 4px 4px grey ;
+    h2{
+      line-height: 80px;
+      border-bottom: 1px dashed black;
+      text-shadow: 2px 2px 2px grey;
+      font-size: 34px;
+    }
+    .article_all{
+      a{
+        display: block;
+        width: 700px;
+        height: 200px;
+        background: white;
+        margin: 20px auto 0;
+        text-decoration: none;
+        position: relative;
+        top: 0;
+        left: 0;
+        img{
+          display: block;
+          width: 200px;
+          height: 150px;
+          position: absolute;
+          top: 20px;
+          left: 30px;
+        }
+      }
+    }
+    #page{
+      height: 50px;
+      display: table;
+      margin: 20px auto;
+      .page {
+        text-align: center;
+      }
+      .fl {
+        float: left;
+      }
+      .fr {
+        float: right;
+      }
+      .pagingUl {
+        float: right;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        height: 30px;
+        li{
+          float: left;
+          width: 30px;
+          height: 30px;
+          background: #fff;
+          text-align: center;
+          margin-right: 15px;
+          border-radius: 5px;
+          a{
+          display: inline-block;
+          width: 30px;
+          height: 30px;
+          text-align: center;
+          line-height: 28px;
+          color: #666;
+          font-size: 12px;
+          border-radius: 5px;
+            text-decoration: none;
+        }
+        }
+      }
+      .prv, .next {
+        width: 30px;
+        height: 30px;
+        text-align: center;
+        line-height: 30px;
+        cursor: pointer;
+        background: #fff;
+        padding: 0 5px;
+        border-radius: 5px;
+      }
+      .prv {
+        margin-right: 10px;
+      }
+      .first, .last {
+        width: 30px;
+        height: 30px;
+        font-size: 12px;
+        text-align: center;
+        line-height: 30px;
+        /*border: 1px solid #ddd;*/
+        cursor: pointer;
+        background: #fff;
+        padding: 0 5px;
+        border-radius: 5px;
+        margin-right: 10px;
+      }
+      .prv:hover, .next:hover, .first:hover, .last:hover, .pagingUl li a:hover, .activP {
+        background-color: #000!important;
+        color: #fff!important;
+      }
+    }
   }
   .right{
     position: absolute;
     top: 40px;
     right: 40px;
-    text-align: center;
     //background: red;
     p{
       width: 160px;
@@ -245,6 +343,10 @@ nav{
         font-size: 20px;
         font-weight: 600;
         animation:play 1s;
+      }
+      &.active{
+        background: deepskyblue;
+        color: white;
       }
     }
   }
