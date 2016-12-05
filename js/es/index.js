@@ -2,6 +2,16 @@
  * Created by tanmi on 2016/12/1.
  */
 window.onload = function() {
+     // 在新窗口中打开 
+    addBlankTargetForLinks ();
+    function addBlankTargetForLinks () {
+        $('a[href^="http"]').each(function(){
+            $(this).attr('target', '_blank');
+        });
+    }
+    $(document).bind('DOMNodeInserted', function(event) {
+        addBlankTargetForLinks();
+    });
     //换背景图
     change_main_bg();
     function change_main_bg() {

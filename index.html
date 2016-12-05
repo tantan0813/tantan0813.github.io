@@ -4,19 +4,45 @@ layout: default
 <section class="middle_02" id="article">
     <div class="left">
         <h2>文章列表</h2>
-        <div class="article_all">
-            <div class="article">
-            　<h3>{{ page.title }}</h3>
-                <p>最新文章</p>
-                <ul>
-                    {% for post in site.posts %}
-                    <li>{{ post.date | date_to_string }}
-                        <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-                    </li>
-                    {% endfor %}
-                </ul>
-                </div>
+        <div class="all-posts" post-cate="All">
+            {% for post in site.posts %}
+            <a class="post-list-item" href="{{ post.url | prepend: site.baseurl }}">
+                <h2>
+                    {{ post.title }}
+                </h2>
+                <span class="">{{ post.date | date: "%b %-d, %Y" }}</span>
+            </a>
+            {% endfor %}
         </div>
+        <!-- <div class="posts-in-categories"> -->
+        {% for category in site.categories %}
+        <div post-cate="{{category | first}}">
+            {% for posts in category  %}
+            {% for post in posts %}
+            {% if post.url %}
+            <a href="{{ post.url }}" class="post-list-item">
+                <h2>
+                    {{ post.title }}
+                </h2>
+                <span class="">{{ post.date | date: "%b %-d, %Y" }}</span>
+            </a>
+            {% endif %}
+            {% endfor %}
+            {% endfor %}
+        </div>
+        {% endfor %}
+        <!--<div class="article_all">-->
+            <!--<div class="article">-->
+            <!--　<h3>{{ page.title }}</h3>-->
+                <!--<ul>-->
+                    <!--{% for post in site.posts %}-->
+                    <!--<li>{{ post.date | date_to_string }}-->
+                        <!--<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>-->
+                    <!--</li>-->
+                    <!--{% endfor %}-->
+                <!--</ul>-->
+                <!--</div>-->
+        <!--</div>-->
         <div id="page"></div>
     </div>
     <div class="right">
