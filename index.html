@@ -88,6 +88,15 @@
             <a class="article" href="_posts/2016-11-30-first.html" target="_blank">
                 <img src="img/bg-main-1.jpg"/>3
             </a>
+            　<h2>{{ page.title }}</h2>
+                <p>最新文章</p>
+                <ul>
+                    {% for post in site.posts %}
+                    <li>{{ post.date | date_to_string }}
+                        <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+                    </li>
+                    {% endfor %}
+                </ul>
             <!--<a class="article" href="_posts/2016-11-30-first.html" target="_blank">-->
                 <!--<img src="img/bg-main-1.jpg"/>-->
             <!--</a>-->
