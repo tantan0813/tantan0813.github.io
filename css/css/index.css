@@ -273,7 +273,7 @@ nav li.active {
   text-shadow: 2px 2px 2px grey;
   font-size: 34px;
 }
-.middle_02 .left .article_all a {
+.middle_02 .left .article_all .article {
   display: block;
   width: 700px;
   height: 200px;
@@ -284,7 +284,7 @@ nav li.active {
   top: 0;
   left: 0;
 }
-.middle_02 .left .article_all a img {
+.middle_02 .left .article_all .article img {
   display: block;
   width: 200px;
   height: 150px;
