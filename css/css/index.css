@@ -387,8 +387,8 @@ nav li.active {
 .middle_02 .right p:hover {
   font-size: 20px;
   font-weight: 600;
-  -webkit-animation: play 1s;
-          animation: play 1s;
+  -webkit-animation: play .8s;
+          animation: play .8s;
 }
 .middle_02 .right p.active {
   background: deepskyblue;
