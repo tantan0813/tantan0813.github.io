@@ -72,6 +72,7 @@ nav{
   top: 40%;
   left: 10px;
   padding: 4px 0;
+  z-index: 250;
   li{
     padding: 4px 20px;
     cursor: pointer;
@@ -116,6 +117,14 @@ nav{
   p{
     line-height: 30px;
   }
+}
+@keyframes dogPlay{
+  from {  width: 90px;height: 90px;background: #DDFFFF;border-radius: 50%;}
+  to { width: 130px;height: 130px;background: lightskyblue;border-radius: 50%;}
+}
+@keyframes play{
+  from {transform: rotate(0);}
+  to {transform: rotate(720deg);}
 }
 .middle_01{
   width: 80%;
@@ -205,14 +214,40 @@ nav{
   margin:20px auto ;
   border-radius: 14px;
   background:#DDFFFF;
-}
-@keyframes dogPlay{
-  from {  width: 90px;height: 90px;background: #DDFFFF;border-radius: 50%;}
-  to { width: 130px;height: 130px;background: lightskyblue;border-radius: 50%;}
-}
-@keyframes play{
-  from {transform: rotate(0);}
-  to {transform: rotate(720deg);}
+  padding: 0 10px;
+  position: relative;
+  top: 0;
+  left: 0;
+  .left{
+    width: 74%;
+    height: 90%;
+    background: white;
+    position: absolute;
+    top: 40px;
+    left: 30px;
+    box-shadow:5px 4px 4px grey ;
+  }
+  .right{
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    text-align: center;
+    //background: red;
+    p{
+      width: 160px;
+      height: 30px;
+      line-height: 30px;
+      border: 2px solid black;
+      margin-top: 20px;
+      border-radius:8px ;
+      cursor: pointer;
+      &:hover{
+        font-size: 20px;
+        font-weight: 600;
+        animation:play 1s;
+      }
+    }
+  }
 }
 .middle_03{
   width: 80%;
@@ -222,6 +257,7 @@ nav{
   background:white;
   height: 400px;
   position: relative;
+  padding: 0 10px;
   top: 0;
   left: 0;
   .bottom-icon{

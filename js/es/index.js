@@ -44,7 +44,6 @@ window.onload = function() {
             $(".light").eq(i).addClass("active").siblings().removeClass("active")
         }
         $(".light").click(function(){
-            console.log(11);
             var index = $(this).index();
             play(index);
             switch(index){
