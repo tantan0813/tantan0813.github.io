@@ -1,43 +1,68 @@
-<header>
-
-<!-- navbar -->
-  <nav class="navbar navbar-inverse">
-  <div class="container">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="{{ site.baseurl }}/">{{ site.title }}</a>
-      <p class="navbar-text">Front-end Dev Engineer</p>
-    </div>
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav navbar-right">
-
-        {% if page.url == "/index.html" %}
-          <li class="active">
-          {% else %}
-          <li>
-        {% endif %}
-          <a href="{{ site.baseurl }}/"><span class="glyphicon glyphicon-th-large"></span> Blog</a></li>
-
-        {% for p in site.pages %}
-          {% if p.title %}
-            {% if p.url == page.url %}
-              <li class="active">
-              {% else %}
-              <li>
-            {% endif %}
-            <a href="{{ p.url | prepend: site.baseurl }}"><span class="glyphicon {{ p.icon }}"></span> {{ p.title }}</a></li>
-          {% endif %}
-        {% endfor %}
-      </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
+<section id="top" class="top a">
+  <b id="copy_email" >E-mail:tan19950813@163.com</b>
+  <div class="text text_01">just do it !</div>
+  <div class="text text_02">Do what you want to do!</div>
+  <div class="text text_03">Right Now!</div>
+</section>
+<nav>
+  <ul>
+    <li class="light" >Self</li>
+    <li class="light" >Skill</li>
+    <li class="light" >Article</li>
+    <li class="light" >Others</li>
+    <li class="light active">Top</li>
+  </ul>
 </nav>
-
-</header>
+<a  class="github_icon"  target="_blank" href="https://github.com/tantan0813"><img src="img/github_icon.png" title="welcome to my github !" /></a>
+<section class="self" id="self">
+  <h2>Self introduction:</h2>
+  <p>带有轻微强迫症的二货青年，过几年就不脆了，我也不再是青年，但至少现在我们正青春。</p>
+  <p>青铜战五渣的坑货，但是仍旧沉浸在游戏的世界里劳民伤财并乐此不疲。</p>
+  <p>有许多想做的事情，有许多想去的地方，有许多理想，有许多梦，但是很难做到正能量满满的去奋斗，我把原因归结为懒，懒真的要命啊。</p>
+  <p>总之，我只希望做一个认认真真快快乐乐的普通人，更准确一点开心的二货程序狗，加油！！！</p>
+  <p>最后，立个flag，10年以后我要自己还认识自己！</p>
+</section>
+<section class="middle_01" id="skill">
+  <div class="html">
+    <p>html/css</p>
+    <div class="big">
+      <div class="small"></div>
+    </div>
+  </div>
+  <div class="html-05">
+    <p>html5/css3</p>
+    <div class="big">
+      <div class="small"></div>
+    </div>
+  </div>
+  <div class="less">
+    <p>less/sass</p>
+    <div class="big">
+      <div class="small"></div>
+    </div>
+  </div>
+  <div class="javascript">
+    <p>JavaScript</p>
+    <div class="big">
+      <div class="small"></div>
+    </div>
+  </div>
+  <div class="jquery">
+    <p>Jquery</p>
+    <div class="big">
+      <div class="small"></div>
+    </div>
+  </div>
+  <div class="grunt">
+    <p>grunt/gulp</p>
+    <div class="big">
+      <div class="small"></div>
+    </div>
+  </div>
+  <div class="mysql">
+    <p>MySQL</p>
+    <div class="big">
+      <div class="small"></div>
+    </div>
+  </div>
+</section>
