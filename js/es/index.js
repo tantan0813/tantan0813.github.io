@@ -7,6 +7,7 @@ window.onload = function() {
         $('a[href^="http"]').each(function(){
             $(this).attr('target', '_blank');
         });
+        console.log(1111);
     }
     $(document).bind('DOMNodeInserted', function(event) {
         addBlankTargetForLinks();
