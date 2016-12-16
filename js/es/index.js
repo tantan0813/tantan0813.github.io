@@ -32,7 +32,6 @@ window.onload = function() {
             if( text[textIndex] !==undefined && text[textIndex].style !== undefined){
                 text[textIndex].style.display == "none" ? text[textIndex].style.display = "block" : text[textIndex].style.display = "none";
             };
-
         }, 2000);
     };
     //花瓣效果
@@ -40,7 +39,7 @@ window.onload = function() {
     function flower() {
         $(document).snowfall('clear');
         $(document).snowfall({
-            image: "img/huaban.png",
+            image: "img/flower.png",
             flakeCount: 6,
             minSize: 5,
             maxSize: 22,
@@ -79,9 +78,9 @@ window.onload = function() {
             } else if(document.body) {
                 scrollTop=document.body.scrollTop;
             }
-            if(scrollTop>200 && scrollTop<340){
+            if(scrollTop>200 && scrollTop<360){
                 i = 0;
-            }else if(scrollTop>340 && scrollTop<600){
+            }else if(scrollTop>360 && scrollTop<600){
                 i = 1;
             }else if(scrollTop>600 && scrollTop<1200){
                 i = 2;
