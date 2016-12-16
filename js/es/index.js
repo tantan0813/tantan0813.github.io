@@ -39,7 +39,8 @@ window.onload = function() {
     function flower() {
         $(document).snowfall('clear');
         $(document).snowfall({
-            image: "img/flower.png",
+            // image: "img/flower.png",
+            image: "img/butterfly.png",
             flakeCount: 6,
             minSize: 5,
             maxSize: 22,
@@ -309,10 +310,6 @@ window.onload = function() {
             show_article(i);
         }
     });
-
-
-
-
 
 }
 

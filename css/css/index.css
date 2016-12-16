@@ -278,7 +278,8 @@ nav li.active {
   text-decoration: none;
 }
 .middle_02 .left .article_all .article li {
-  width: 200px;
+  width: 80%;
+  background: white;
   border-radius: 8px;
   box-shadow: 5px 4px 4px grey ;
 }
