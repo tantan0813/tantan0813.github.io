@@ -97,6 +97,7 @@ nav li.active {
   position: fixed;
   top: 24%;
   left: 14px;
+  z-index: 1000;
 }
 .github_icon img {
   display: block;
@@ -280,6 +281,9 @@ nav li.active {
   margin: 0 auto 20px;
   border-radius: 8px;
   box-shadow: 5px 4px 4px grey ;
+}
+.middle_02 .left .article_all li p {
+  display: inline;
 }
 .middle_02 .left #page {
   height: 50px;
