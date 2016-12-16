@@ -271,11 +271,10 @@ nav li.active {
   text-shadow: 2px 2px 2px grey;
   font-size: 34px;
 }
-.middle_02 .left .article_all .article {
-  display: block;
-  text-decoration: none;
+.middle_02 .left .article_all {
+  margin-top: 40px;
 }
-.middle_02 .left .article_all .article li {
+.middle_02 .left .article_all li {
   width: 88%;
   background: white;
   margin: 0 auto 20px;
