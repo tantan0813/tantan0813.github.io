@@ -282,6 +282,9 @@ nav li.active {
   border-radius: 8px;
   box-shadow: 5px 4px 4px grey ;
 }
+.middle_02 .left .article_all li h3 {
+  font-size: 30px;
+}
 .middle_02 .left .article_all li p {
   display: inline;
 }
