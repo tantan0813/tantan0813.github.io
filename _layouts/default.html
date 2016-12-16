@@ -21,6 +21,7 @@
     <div class="home-contact">
       <a href="http://weibo.com/2706285455" target="_blank"><img src="http://o86qmsuit.bkt.clouddn.com/image/weibo.ico" alt="" width="25" /></a>
       <a href="https://tantan0813.github.io/" target="_blank"><img src="http://o86qmsuit.bkt.clouddn.com/image/github_logo.png" alt="" width="25" /></a>
+      <a href="../resume/resume.html" target="_blank"><img src="../img/Resume.png" alt="" width="25" /></a>
     </div>
   </div>
   {{ content }}
@@ -28,7 +29,6 @@
     $(function() {
       $('.home-follow').click(function(e) {
         e.preventDefault();
-
         if ($('.home-contact').is(':visible')) {
           $('.home-contact').slideUp(100);
         } else {
