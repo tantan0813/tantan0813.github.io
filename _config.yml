@@ -13,7 +13,7 @@ author_info: <a href="https://tantan0813.github.io/">Fong Ray</a>
 
 
 
-#deploy:
-#  type: git
-#  repository: https://github.com/tantan0813/tantan0813.github.io.git
-#  branch: master
+deploy:
+  type: git
+  repository: https://github.com/tantan0813/tantan0813.github.io.git
+  branch: master
