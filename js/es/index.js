@@ -81,11 +81,11 @@ window.onload = function() {
             }
             if(scrollTop>0 && scrollTop<300){
                 i = 3;
-            }else if(scrollTop>300 && scrollTop<560){
+            }else if(scrollTop>300 && scrollTop<500){
                 i = 0;
-            }else if(scrollTop>560 && scrollTop<1100){
+            }else if(scrollTop>500 && scrollTop<800){
                 i = 1;
-            }else if(scrollTop>1100){
+            }else if(scrollTop>800){
                 i = 2;
             }
             console.log(scrollTop);
