@@ -88,6 +88,7 @@ window.onload = function() {
             }else if(scrollTop>1100){
                 i = 2;
             }
+            console.log(scrollTop);
             play(".light",i);
         }
         if(document.addEventListener){
