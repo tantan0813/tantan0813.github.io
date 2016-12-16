@@ -35,6 +35,9 @@
           $('.home-contact').slideDown(100);
         }
       });
+      var bg = document.getElementById("aside"),
+              width = document.documentElement.clientWidth;
+      if(width <756) bg.style.display = "none";
     })
   </script>
 </body>
