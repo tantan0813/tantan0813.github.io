@@ -16,7 +16,7 @@
   <div class="home-menu">
     <div class="home-icon-con">
       <a class="home-menu-icon" href="/">minTan</a>
-      <a class="home-follow" href="#" title="Contact Me">+</a>
+      <a class="home-follow" href="#" id="menu-bar" title="Contact Me">-</a>
     </div>
     <div class="home-contact">
       <a href="http://weibo.com/2706285455" target="_blank"><img src="http://o86qmsuit.bkt.clouddn.com/image/weibo.ico" alt="" width="25" /></a>
@@ -30,8 +30,10 @@
       $('.home-follow').click(function(e) {
         e.preventDefault();
         if ($('.home-contact').is(':visible')) {
+          $(this).text("-");
           $('.home-contact').slideUp(100);
         } else {
+          $(this).text("+");
           $('.home-contact').slideDown(100);
         }
       });
