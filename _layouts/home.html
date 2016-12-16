@@ -1,7 +1,9 @@
 ---
 layout: default
 ---
+
 {{ content }}
+
 <script type="text/javascript">
   $(function() {
     function animateBar($item, noAni) {
@@ -9,6 +11,7 @@ layout: default
       var conLeft = $item.parent().offset().left;
       var left = spanLeft - conLeft;
       var width = $item.find('span').width() + 8;
+
       if (noAni) {
         $('#cateBar').css({
           left: left,
@@ -21,6 +24,7 @@ layout: default
         }, 300)
       }
     }
+
     var waitForFinalEvent = (function() {
       var timers = {};
       return function(callback, ms, uniqueId) {
@@ -33,6 +37,7 @@ layout: default
         timers[uniqueId] = setTimeout(callback, ms);
       };
     })();
+
     $('.artical-cate li').mouseenter(function() {
       animateBar($(this));
     }).mouseleave(function() {
