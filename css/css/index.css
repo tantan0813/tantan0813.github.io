@@ -247,7 +247,6 @@ nav li.active {
 }
 .middle_02 {
   width: 80%;
-  height: 880px;
   min-width: 1000px;
   margin: 20px auto ;
   border-radius: 14px;
@@ -261,11 +260,9 @@ nav li.active {
 .middle_02 .left {
   width: 74%;
   height: 94%;
-  background: #FAF8ED;
   position: absolute;
   top: 20px;
   left: 30px;
-  box-shadow: 5px 4px 4px grey ;
 }
 .middle_02 .left h2 {
   line-height: 80px;
@@ -276,21 +273,21 @@ nav li.active {
 .middle_02 .left .article_all .article {
   display: block;
   width: 700px;
-  height: 200px;
-  background: white;
   margin: 20px auto 0;
   text-decoration: none;
   position: relative;
   top: 0;
   left: 0;
 }
-.middle_02 .left .article_all .article img {
-  display: block;
-  width: 200px;
-  height: 150px;
+.middle_02 .left .article_all .article p {
   position: absolute;
   top: 20px;
   left: 30px;
+}
+.middle_02 .left .article_all .article li {
+  width: 200px;
+  border-radius: 8px;
+  box-shadow: 5px 4px 4px grey ;
 }
 .middle_02 .left #page {
   height: 50px;

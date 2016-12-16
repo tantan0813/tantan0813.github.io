@@ -84,7 +84,7 @@ window.onload = function() {
                 i = 1;
             }else if(scrollTop>600 && scrollTop<1200){
                 i = 2;
-            }else if(scrollTop>1200 && scrollTop<1600){
+            }else if(scrollTop>1200){
                 i = 3;
             }
             play(".light",i);
