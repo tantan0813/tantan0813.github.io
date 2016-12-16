@@ -1,18 +1,22 @@
 ---
 layout: default
 ---
-<!--<link href="css/css/index.css" rel="stylesheet"/>-->
+<link href="css/css/index.css" rel="stylesheet"/>
 <section class="middle_02" id="article">
     <div class="left">
         <h2>文章列表</h2>
         <div class="article_all">
                 <ul>
-                    {% for post in site.posts %}
+                    <!--{% for post in site.posts %}-->
+                    <!--<li>-->
+                        <!--<h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>-->
+                        <!--<p>{{ post.date | date_to_string }}</p>-->
+                    <!--</li>-->
+                    <!--{% endfor %}-->
                     <li>
-                        <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
-                        <p>{{ post.date | date_to_string }}</p>
+                        <h3><a href="/2016/12/05/test/">Test</a></h3>
+                        <p>05 Dec 2016</p>
                     </li>
-                    {% endfor %}
                 </ul>
         <div id="page"></div>
         </div>

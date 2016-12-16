@@ -79,14 +79,14 @@ window.onload = function() {
             } else if(document.body) {
                 scrollTop=document.body.scrollTop;
             }
-            if(scrollTop>240 && scrollTop<360){
-                i = 0;
-            }else if(scrollTop>360 && scrollTop<600){
-                i = 1;
-            }else if(scrollTop>600 && scrollTop<1200){
-                i = 2;
-            }else if(scrollTop>1200){
+            if(scrollTop>0 && scrollTop<300){
                 i = 3;
+            }else if(scrollTop>300 && scrollTop<560){
+                i = 0;
+            }else if(scrollTop>560 && scrollTop<1100){
+                i = 1;
+            }else if(scrollTop>1100){
+                i = 2;
             }
             play(".light",i);
         }
