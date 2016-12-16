@@ -79,7 +79,7 @@ window.onload = function() {
             } else if(document.body) {
                 scrollTop=document.body.scrollTop;
             }
-            if(scrollTop>200 && scrollTop<360){
+            if(scrollTop>240 && scrollTop<360){
                 i = 0;
             }else if(scrollTop>360 && scrollTop<600){
                 i = 1;
