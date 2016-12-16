@@ -7,7 +7,6 @@ window.onload = function() {
         $('a[href^="http"]').each(function(){
             $(this).attr('target', '_blank');
         });
-        console.log(1111);
     }
     $(document).bind('DOMNodeInserted', function(event) {
         addBlankTargetForLinks();
@@ -68,9 +67,6 @@ window.onload = function() {
                     document.getElementById('article').scrollIntoView();
                     break;
                 case 3:
-                    document.getElementById('others').scrollIntoView();
-                    break;
-                case 4:
                     document.getElementById('top').scrollIntoView();
                     break;
             }
@@ -91,8 +87,6 @@ window.onload = function() {
                 i = 2;
             }else if(scrollTop>1200 && scrollTop<1600){
                 i = 3;
-            }else if(scrollTop<200 || scrollTop>1600){
-                i = 4;
             }
             play(".light",i);
         }
