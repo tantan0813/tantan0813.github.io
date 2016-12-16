@@ -11,3 +11,7 @@ url: https://tantan0813.github.io/
 feed: /atom.xml
 author_info: <a href="https://tantan0813.github.io/">minTan</a>
 
+deploy:
+  type: git
+  repository: https://github.com/tantan0813/tantan0813.github.io.git
+  branch: master

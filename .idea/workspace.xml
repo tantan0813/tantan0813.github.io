@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="527ccfea-76fb-4b49-ad55-eccde72d7702" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/es/css3-ani.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/es/post.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_config.yml" afterPath="$PROJECT_DIR$/_config.yml" />
     </list>
     <ignored path="Blog.iws" />
@@ -308,15 +305,15 @@
       <workItem from="1481153941938" duration="2158000" />
       <workItem from="1481626608922" duration="2157000" />
       <workItem from="1481845310883" duration="12384000" />
-      <workItem from="1481862944326" duration="26755000" />
+      <workItem from="1481862944326" duration="26873000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="151872000" />
+    <option name="totallyTimeSpent" value="151990000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1830161" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
