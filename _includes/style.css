@@ -398,12 +398,19 @@ pre ol {
 }
 
 .coding .aside {
-  background-image: url(http://bpic.588ku.com/back_pic/03/86/14/5557ce5e35973aa.jpg);
+  background-image: url(http://o86qmsuit.bkt.clouddn.com/image/coding_background.jpeg);
 }
 
 .life .aside {
-  background-image: url(http://bpic.588ku.com/back_pic/04/22/90/0358339b0e78337.jpg);
+  background-image: url(http://o86qmsuit.bkt.clouddn.com/image/life_background.jpg);
 }
+/*.coding .aside {*/
+  /*background-image: url(http://bpic.588ku.com/back_pic/03/86/14/5557ce5e35973aa.jpg);*/
+/*}*/
+
+/*.life .aside {*/
+  /*background-image: url(http://bpic.588ku.com/back_pic/04/22/90/0358339b0e78337.jpg);*/
+/*}*/
 
 .project .aside {
   background-image: url('https://d233eq3e3p3cv0.cloudfront.net/max/1000/0*kTUZamBulGQZg1MW.jpeg')
