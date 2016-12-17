@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="527ccfea-76fb-4b49-ad55-eccde72d7702" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/Summer.mp3" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/disqus.html" afterPath="$PROJECT_DIR$/_includes/disqus.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/style.css" afterPath="$PROJECT_DIR$/_includes/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/default.html" afterPath="$PROJECT_DIR$/_layouts/default.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/post.js" afterPath="$PROJECT_DIR$/js/post.js" />
     </list>
     <ignored path="Blog.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,18 +29,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="resume.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resume/resume.html">
+      <file leaf-file-name="post.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/post.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="550">
-              <caret line="28" column="6" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
-              <folding>
-                <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#style#0;n#a#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="249">
+              <caret line="28" column="24" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -46,61 +42,28 @@
       <file leaf-file-name="default.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_layouts/default.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="16" column="16" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="23" />
+            <state relative-caret-position="-100">
+              <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="disqus.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_includes/disqus.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_includes/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="815" column="0" selection-start-line="815" selection-start-column="0" selection-end-line="815" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="resume.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/less/resume.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
-              <caret line="396" column="10" selection-start-line="396" selection-start-column="10" selection-end-line="396" selection-end-column="10" />
-              <folding>
-                <element signature="e#1#51#0" expanded="false" />
-                <element signature="e#56#111#0" expanded="false" />
-                <element signature="e#116#1407#0" expanded="false" />
-                <element signature="e#1411#1722#0" expanded="false" />
-                <element signature="e#2023#2188#0" expanded="false" />
-                <element signature="e#2189#2366#0" expanded="false" />
-                <element signature="e#2367#2450#0" expanded="false" />
-                <element signature="e#2461#3716#0" expanded="false" />
-                <element signature="e#3727#6632#0" expanded="false" />
-                <element signature="e#6639#7112#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/coding/index.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-              <folding>
-                <element signature="n#style#0;n#a#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_layouts/home.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+            <state relative-caret-position="199">
+              <caret line="514" column="1" selection-start-line="514" selection-start-column="1" selection-end-line="514" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -152,10 +115,8 @@
         <option value="$PROJECT_DIR$/css/less/page.less" />
         <option value="$PROJECT_DIR$/_config.yml" />
         <option value="$PROJECT_DIR$/_layouts/post.html" />
-        <option value="$PROJECT_DIR$/_includes/disqus.html" />
         <option value="$PROJECT_DIR$/_layouts/home.html" />
         <option value="$PROJECT_DIR$/life/index.md" />
-        <option value="$PROJECT_DIR$/js/post.js" />
         <option value="D:/MySpace/front/activity/27201111/app/src/js/index.js" />
         <option value="$PROJECT_DIR$/js/es/test.js" />
         <option value="$PROJECT_DIR$/js/es/jquery.page.js" />
@@ -167,9 +128,11 @@
         <option value="$PROJECT_DIR$/_posts/life/2016-12-17-from findjog feeling.md" />
         <option value="$PROJECT_DIR$/resume/resume.html" />
         <option value="$PROJECT_DIR$/css/less/resume.less" />
-        <option value="$PROJECT_DIR$/_layouts/default.html" />
         <option value="$PROJECT_DIR$/coding/index.md" />
         <option value="$PROJECT_DIR$/_includes/style.css" />
+        <option value="$PROJECT_DIR$/js/post.js" />
+        <option value="$PROJECT_DIR$/_layouts/default.html" />
+        <option value="$PROJECT_DIR$/_includes/disqus.html" />
       </list>
     </option>
   </component>
@@ -243,6 +206,48 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tantan0813.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tantan0813.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tantan0813.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tantan0813.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_layouts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tantan0813.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tantan0813.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_includes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -257,7 +262,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="SearchEverywhereHistoryKey" value=".aside&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="disqus_container&#9;null&#9;null&#10;.aside&#9;null&#9;null" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -348,12 +353,12 @@
       <workItem from="1481845310883" duration="12384000" />
       <workItem from="1481862944326" duration="28255000" />
       <workItem from="1481896592125" duration="3170000" />
-      <workItem from="1481939030808" duration="22536000" />
+      <workItem from="1481939030808" duration="24477000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="179078000" />
+    <option name="totallyTimeSpent" value="181019000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -490,13 +495,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/disqus.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/img/resume.png" />
     <entry file="file://$PROJECT_DIR$/js/prettify/lang-yaml.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -514,14 +512,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/post.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4028">
-          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -830,29 +820,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/css/resume.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="13">
           <caret line="440" column="1" selection-start-line="440" selection-start-column="1" selection-end-line="440" selection-end-column="1" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/coding/index.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-          <folding>
-            <element signature="n#style#0;n#a#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -889,18 +861,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/default.html">
+    <entry file="file://$PROJECT_DIR$/coding/index.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="16" column="16" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="23" />
+        <state relative-caret-position="50">
+          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_includes/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="815" column="0" selection-start-line="815" selection-start-column="0" selection-end-line="815" selection-end-column="0" />
+        <state relative-caret-position="199">
+          <caret line="514" column="1" selection-start-line="514" selection-start-column="1" selection-end-line="514" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/post.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="28" column="24" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/default.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-100">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/disqus.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
           <folding />
         </state>
       </provider>

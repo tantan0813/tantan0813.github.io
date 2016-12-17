@@ -23,12 +23,12 @@ $(document).ready(function(){
 
     $('pre').addClass('prettyprint linenums'); //添加Google code Hight需要的class
 
-    // window.disqus_shortname = 'fangr'; // required: replace example with your forum shortname
-    // $('#disqus_container .comment').on('click',function(){
-    //     $(this).html('加载中...');
-    //     var that = this;
-    //     $.getScript('http://' + disqus_shortname + '.disqus.com/embed.js',function(){$(that).remove()});
-    // });
+    window.disqus_shortname = 'tantan0813'; // required: replace example with your forum shortname
+    $('#disqus_container .comment').on('click',function(){
+        $(this).html('加载中...');
+        var that = this;
+        // $.getScript('http://' + disqus_shortname + '.disqus.com/embed.js',function(){$(that).remove()});
+    });
 
     $('.entry a').each(function(index,element){
         var href = $(this).attr('href');
@@ -98,14 +98,11 @@ $(document).ready(function(){
         function genIndex(){
             var tmpl = genTmpl();
             var indexCon = '<div id="menuIndex" class="sidenav"></div>';
-
             $(indexCon).insertBefore(".about-wrapper");
-
             $('#menuIndex')
                 .append($(tmpl))
                 .delegate('a','click',function(e){
                     e.preventDefault();
-
                     var selector = $(this).attr('data-id') ? '#'+$(this).attr('data-id') : 'h1'
                     var scrollNum = $(selector).offset().top;
 

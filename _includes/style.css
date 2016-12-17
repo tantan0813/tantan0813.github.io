@@ -803,7 +803,6 @@ h3.about {
     margin: 100px auto 50px;
   }
 }
-
 @media (max-width: 1300px) {
   .home-menu {
     position: absolute;
@@ -813,7 +812,6 @@ h3.about {
     left: 128px;
   }
 }
-
 
 /****************文章列表*************************/
 
