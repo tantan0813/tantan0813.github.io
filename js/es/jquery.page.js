@@ -2,6 +2,9 @@
 *page plugin 1.0   2016-09-29 by cary
 */
 (function ($) {
+
+
+
   //默认参数
   var defaults = {
     totalPages: 9,//总页数
