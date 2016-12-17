@@ -47,6 +47,12 @@
           $("#audioBtn").removeClass("pause").addClass("play");
         }else{music.pause();
           $("#audioBtn").removeClass("play").addClass("pause");}});
+      //删除未完善的微博关注功能
+      sina_follower();
+      function sina_follower(){
+        var target = $("#pl_weibo_show");
+        if(target) target.remove();
+      }
     })
   </script>
 </body>
