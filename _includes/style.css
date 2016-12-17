@@ -628,7 +628,6 @@ h3.about {
     width: 80%;
   }
 }
-
 .about-wrapper .aboutme a {
   color: #fff;
   font-size: 14px;
@@ -637,20 +636,21 @@ h3.about {
 .bg-music {
   width: 50px;
   position: fixed;
-  top: 15px;
+  top: 10px;
   left: 120px;
+}
+.bg-music .mscBtn {
+  display: block;
+  width: 50px;
+  height: 50px;
+  border-radius: 18px;
+  background: #fff url(../img/musicBtn.gif) no-repeat;
 }
 .bg-music .play {
   background-position: 0 top;
 }
 .bg-music .pause {
   background-position: 0 bottom !important;
-}
-.bg-music .mscBtn {
-  height: 50px;
-  border-radius: 18px;
-  background: #fff url(../img/musicBtn.gif) no-repeat;
-  display: block;
 }
 .home-menu {
   position: fixed;
