@@ -2,16 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="527ccfea-76fb-4b49-ad55-eccde72d7702" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_includes/pageheader.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/zhihu.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/bg01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/bg02.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/bg03.jpg" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/style.css" afterPath="$PROJECT_DIR$/_includes/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/default.html" afterPath="$PROJECT_DIR$/_layouts/default.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coding/index.md" afterPath="$PROJECT_DIR$/coding/index.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/es/jquery.page.js" afterPath="$PROJECT_DIR$/js/es/jquery.page.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/post.js" afterPath="$PROJECT_DIR$/js/post.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/life/index.md" afterPath="$PROJECT_DIR$/life/index.md" />
     </list>
     <ignored path="Blog.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,7 +33,7 @@
         <entry file="file://$PROJECT_DIR$/_includes/style.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="247">
-              <caret line="404" column="41" selection-start-line="404" selection-start-column="41" selection-end-line="404" selection-end-column="41" />
+              <caret line="404" column="85" selection-start-line="404" selection-start-column="85" selection-end-line="404" selection-end-column="85" />
               <folding />
             </state>
           </provider>
@@ -324,12 +319,12 @@
       <workItem from="1481845310883" duration="12384000" />
       <workItem from="1481862944326" duration="28255000" />
       <workItem from="1481896592125" duration="3170000" />
-      <workItem from="1481939030808" duration="9064000" />
+      <workItem from="1481939030808" duration="9423000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="165606000" />
+    <option name="totallyTimeSpent" value="165965000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -823,7 +818,7 @@
     <entry file="file://$PROJECT_DIR$/_includes/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
-          <caret line="404" column="41" selection-start-line="404" selection-start-column="41" selection-end-line="404" selection-end-column="41" />
+          <caret line="404" column="85" selection-start-line="404" selection-start-column="85" selection-end-line="404" selection-end-column="85" />
           <folding />
         </state>
       </provider>
