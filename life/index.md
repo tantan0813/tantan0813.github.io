@@ -1,7 +1,10 @@
 ---
 layout: home
 ---
-
+<div class="bg-music">
+  <a class="mscBtn play" id="audioBtn" style="cursor:pointer;"></a>
+  <audio id="bgMusic" src="../music/jile.mp3" autoplay="autoplay" loop="loop"></audio>
+</div>
 <div class="index-content life">
   <div class="section">
     <ul class="artical-cate">
