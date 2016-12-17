@@ -84,8 +84,22 @@
     <p>© Copyright 2016 minTan</p>
     <a target="_blank" href="http://weibo.com/2706285455"><img src="../img/sina.png" title="welcome to my weibo"/></a>
 </footer>
-<script type="text/javascript"  src="../src/core/jquery-3.1.0.min.js"></script>
+<div class="bg-music">
+    <a class="mscBtn play" id="audioBtn" style="cursor:pointer;"></a>
+    <audio id="bgMusic" src="../music/Summer.mp3" autoplay="autoplay" loop="loop"></audio>
+</div>
+<!--<script type="text/javascript"  src="../src/core/jquery-3.1.0.min.js"></script>-->
+<script type="text/javascript"  src="../js/jquery-1.7.1.min.js"></script>
 <script src="../js/es/resume.js" type="text/javascript"></script>
 <script src="../js/es/flower.js"></script>
+<script type="text/javascript">
+    //bg-music-play
+    var music = document.getElementById("bgMusic");
+    $("#audioBtn").click(function(){
+        if(music.paused){music.play();
+            $("#audioBtn").removeClass("pause").addClass("play");
+        }else{music.pause();
+            $("#audioBtn").removeClass("play").addClass("pause");}});
+</script>
 </body>
 </html>

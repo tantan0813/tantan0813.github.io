@@ -11,6 +11,7 @@
   <link rel="alternate" type="application/atom+xml" title="Recent Entries" href="{{ site.feed }}" />
   <script src="/js/jquery-1.7.1.min.js" type="text/javascript"></script>
   <style>{% include style.css %}</style>
+  <!--<link href="../_includes/style.css" rel="stylesheet"/>-->
 </head>
 <body>
   <div class="home-menu">
@@ -27,6 +28,7 @@
   {{ content }}
   <script type="text/javascript">
     $(function() {
+      //收放菜单
       $('.home-follow').click(function(e) {
         e.preventDefault();
         if ($('.home-contact').is(':visible')) {
@@ -37,6 +39,13 @@
           $('.home-contact').slideDown(100);
         }
       });
+      //bg-music-play
+      var music = document.getElementById("bgMusic");
+      $("#audioBtn").click(function(){
+        if(music.paused){music.play();
+          $("#audioBtn").removeClass("pause").addClass("play");
+        }else{music.pause();
+          $("#audioBtn").removeClass("play").addClass("pause");}});
     })
   </script>
 </body>

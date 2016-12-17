@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="527ccfea-76fb-4b49-ad55-eccde72d7702" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/favicon.ico" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/style.css" afterPath="$PROJECT_DIR$/_includes/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/default.html" afterPath="$PROJECT_DIR$/_layouts/default.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/life/2016-12-17-from findjog feeling.md" afterPath="$PROJECT_DIR$/_posts/life/2016-12-17-from findjog feeling.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coding/index.md" afterPath="$PROJECT_DIR$/coding/index.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/css/resume.css" afterPath="$PROJECT_DIR$/css/css/resume.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/less/resume.less" afterPath="$PROJECT_DIR$/css/less/resume.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resume/resume.html" afterPath="$PROJECT_DIR$/resume/resume.html" />
     </list>
     <ignored path="Blog.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,21 +33,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="2016-10-17-people born single.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/life/2016-10-17-people born single.md">
+      <file leaf-file-name="resume.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resume/resume.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="375">
+              <caret line="86" column="5" selection-start-line="86" selection-start-column="0" selection-end-line="89" selection-end-column="6" />
+              <folding>
+                <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#style#0;n#a#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2016-12-17-from findjog feeling.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/_posts/life/2016-12-17-from findjog feeling.md">
+      <file leaf-file-name="default.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_layouts/default.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+            <state relative-caret-position="794">
+              <caret line="49" column="11" selection-start-line="49" selection-start-column="11" selection-end-line="49" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -49,18 +62,61 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_includes/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="97">
-              <caret line="398" column="0" selection-start-line="398" selection-start-column="0" selection-end-line="398" selection-end-column="0" />
+            <state relative-caret-position="383">
+              <caret line="640" column="9" selection-start-line="640" selection-start-column="9" selection-end-line="640" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2016-06-05-install-jekyll-locally.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/coding/2016-06-05-install-jekyll-locally.md">
+      <file leaf-file-name="resume.less" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/less/resume.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+            <state relative-caret-position="-467">
+              <caret line="107" column="9" selection-start-line="107" selection-start-column="9" selection-end-line="107" selection-end-column="9" />
+              <folding>
+                <element signature="e#1#51#0" expanded="false" />
+                <element signature="e#56#111#0" expanded="false" />
+                <element signature="e#116#1407#0" expanded="false" />
+                <element signature="e#1411#1722#0" expanded="false" />
+                <element signature="e#2023#2188#0" expanded="false" />
+                <element signature="e#2189#2366#0" expanded="false" />
+                <element signature="e#2367#2450#0" expanded="false" />
+                <element signature="e#2461#3716#0" expanded="false" />
+                <element signature="e#3727#6632#0" expanded="false" />
+                <element signature="e#6639#7112#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="resume.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/css/resume.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="13">
+              <caret line="440" column="1" selection-start-line="440" selection-start-column="1" selection-end-line="440" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/coding/index.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+              <folding>
+                <element signature="n#style#0;n#a#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_layouts/home.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -108,18 +164,13 @@
         <option value="$PROJECT_DIR$/_posts/2016-11-30-first.html" />
         <option value="$PROJECT_DIR$/index.md" />
         <option value="$PROJECT_DIR$/js/es/resume.js" />
-        <option value="$PROJECT_DIR$/css/less/resume.less" />
         <option value="$PROJECT_DIR$/js/es/post.js" />
         <option value="$PROJECT_DIR$/css/less/page.less" />
-        <option value="$PROJECT_DIR$/resume/resume.html" />
         <option value="$PROJECT_DIR$/_config.yml" />
         <option value="$PROJECT_DIR$/_layouts/post.html" />
         <option value="$PROJECT_DIR$/_includes/disqus.html" />
         <option value="$PROJECT_DIR$/_layouts/home.html" />
-        <option value="$PROJECT_DIR$/_layouts/default.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/life/index.md" />
-        <option value="$PROJECT_DIR$/coding/index.md" />
         <option value="$PROJECT_DIR$/js/post.js" />
         <option value="D:/MySpace/front/activity/27201111/app/src/js/index.js" />
         <option value="$PROJECT_DIR$/js/es/test.js" />
@@ -127,8 +178,14 @@
         <option value="$PROJECT_DIR$/src/core/react.js" />
         <option value="$PROJECT_DIR$/_posts/life/2016-12-17-frome findjog feeling.md.html" />
         <option value="$PROJECT_DIR$/_posts/life/2016-12-17-frome findjog feeling.md" />
-        <option value="$PROJECT_DIR$/_includes/style.css" />
+        <option value="$PROJECT_DIR$/project/index.md" />
+        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/_posts/life/2016-12-17-from findjog feeling.md" />
+        <option value="$PROJECT_DIR$/resume/resume.html" />
+        <option value="$PROJECT_DIR$/css/less/resume.less" />
+        <option value="$PROJECT_DIR$/_includes/style.css" />
+        <option value="$PROJECT_DIR$/_layouts/default.html" />
+        <option value="$PROJECT_DIR$/coding/index.md" />
       </list>
     </option>
   </component>
@@ -212,11 +269,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="_posts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="life" />
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -230,11 +283,57 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="_posts" />
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="less" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tantan0813.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tantan0813.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tantan0813.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tantan0813.github.io" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="coding" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tantan0813.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tantan0813.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_layouts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -261,7 +360,7 @@
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Font" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="D:/MySpace/fitting-dog" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/FongRay.github.io-master" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
@@ -271,10 +370,10 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Blog\tantan0813.github.io\img" />
+      <recent name="D:\Blog\tantan0813.github.io\project" />
       <recent name="D:\Blog\tantan0813.github.io" />
       <recent name="D:\Blog\tantan0813.github.io\js" />
       <recent name="D:\Blog\tantan0813.github.io\_includes" />
-      <recent name="D:\Blog\tantan0813.github.io\src\core" />
     </key>
   </component>
   <component name="RunManager">
@@ -357,18 +456,18 @@
       <workItem from="1481845310883" duration="12384000" />
       <workItem from="1481862944326" duration="28255000" />
       <workItem from="1481896592125" duration="3170000" />
-      <workItem from="1481939030808" duration="11811000" />
+      <workItem from="1481939030808" duration="19428000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="168353000" />
+    <option name="totallyTimeSpent" value="175970000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1830161" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2057101" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32961783" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -408,15 +507,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_includes/pageheader.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="3" selection-start-line="2" selection-start-column="0" selection-end-line="7" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resume/index.html" />
-    <entry file="file://$PROJECT_DIR$/_posts/coding/2016-11-30-first.html" />
     <entry file="file://$PROJECT_DIR$/index.md" />
     <entry file="file://$PROJECT_DIR$/js/es/css3-ani.js" />
     <entry file="file://$PROJECT_DIR$/404.html">
@@ -515,19 +605,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resume/resume.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
-          <folding>
-            <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/img/resume.png" />
     <entry file="file://$PROJECT_DIR$/js/prettify/lang-yaml.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -545,48 +622,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/post.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1150">
-          <caret line="46" column="6" selection-start-line="46" selection-start-column="6" selection-end-line="46" selection-end-column="6" />
-          <folding>
-            <element signature="e#1143#1150#1" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/default.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/life/index.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="73" selection-start-line="8" selection-start-column="73" selection-end-line="8" selection-end-column="73" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="64" selection-start-line="7" selection-start-column="64" selection-end-line="7" selection-end-column="68" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -827,14 +862,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/coding/index.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/life/2016-12-17-frome findjog feeling.md.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
@@ -859,6 +886,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/project/index.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+          <folding>
+            <element signature="n#style#0;n#li#2;n#ul#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/life/index.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+          <folding>
+            <element signature="n#style#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/post.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1150">
+          <caret line="46" column="6" selection-start-line="46" selection-start-column="6" selection-end-line="46" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/coding/2016-06-05-install-jekyll-locally.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
@@ -867,19 +930,86 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/style.css">
+    <entry file="file://$PROJECT_DIR$/_posts/life/2016-12-17-from findjog feeling.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="398" column="0" selection-start-line="398" selection-start-column="0" selection-end-line="398" selection-end-column="0" />
+        <state relative-caret-position="300">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/life/2016-12-17-from findjog feeling.md">
+    <entry file="file://$PROJECT_DIR$/css/less/resume.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+        <state relative-caret-position="-467">
+          <caret line="107" column="9" selection-start-line="107" selection-start-column="9" selection-end-line="107" selection-end-column="9" />
+          <folding>
+            <element signature="e#1#51#0" expanded="false" />
+            <element signature="e#56#111#0" expanded="false" />
+            <element signature="e#116#1407#0" expanded="false" />
+            <element signature="e#1411#1722#0" expanded="false" />
+            <element signature="e#2023#2188#0" expanded="false" />
+            <element signature="e#2189#2366#0" expanded="false" />
+            <element signature="e#2367#2450#0" expanded="false" />
+            <element signature="e#2461#3716#0" expanded="false" />
+            <element signature="e#3727#6632#0" expanded="false" />
+            <element signature="e#6639#7112#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/css/resume.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13">
+          <caret line="440" column="1" selection-start-line="440" selection-start-column="1" selection-end-line="440" selection-end-column="1" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="640" column="9" selection-start-line="640" selection-start-column="9" selection-end-line="640" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resume/resume.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="86" column="5" selection-start-line="86" selection-start-column="0" selection-end-line="89" selection-end-column="6" />
+          <folding>
+            <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/default.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="794">
+          <caret line="49" column="11" selection-start-line="49" selection-start-column="11" selection-end-line="49" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coding/index.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

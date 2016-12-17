@@ -181,7 +181,6 @@ body .hide {
   float: right;
 }
 
-
 /***********default settings**********/
 
 body {
@@ -240,19 +239,14 @@ h3 {
   font-weight: bold;
   margin-bottom: 25px;
 }
-
-h4,
-h5,
-h6 {
+h4, h5, h6 {
   font-weight: bold;
   margin-bottom: 15px;
 }
-
 p {
   margin-bottom: 40px;
   line-height: 1.8em;
 }
-
 code {
   background: #eee;
   border: 1px solid #ccc;
@@ -262,7 +256,6 @@ code {
   font-size: 14px;
   word-wrap: break-word;
 }
-
 pre {
   background-color: #000;
   padding: 15px;
@@ -276,27 +269,20 @@ pre {
   color: #b9bdb6;
   margin-top: -20px;
 }
-
-h4+pre,
-h3+pre {
+h4+pre, h3+pre {
   margin-top: 20px;
 }
-
 pre code {
   background-color: transparent;
   border: none;
   padding: 0;
   word-wrap: normal;
 }
-
 pre ol {
   margin-left: 25px;
   list-style-type: decimal;
 }
-
-
 /************layout style*****************/
-
 #content {
   width: 1140px;
   margin: 90px auto 60px;
@@ -304,10 +290,7 @@ pre ol {
   height: auto !important;
   height: 400px;
 }
-
-
 /****************entry style**************/
-
 .sidenav {
   width: 240px;
   background: #fff;
@@ -650,7 +633,25 @@ h3.about {
   color: #fff;
   font-size: 14px;
 }
-
+/***********bg-music settings**********/
+.bg-music {
+  width: 50px;
+  position: fixed;
+  top: 15px;
+  left: 120px;
+}
+.bg-music .play {
+  background-position: 0 top;
+}
+.bg-music .pause {
+  background-position: 0 bottom !important;
+}
+.bg-music .mscBtn {
+  height: 50px;
+  border-radius: 18px;
+  background: #fff url(../img/musicBtn.gif) no-repeat;
+  display: block;
+}
 .home-menu {
   position: fixed;
   top: 15px;

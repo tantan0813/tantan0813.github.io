@@ -112,8 +112,8 @@ nav li.active {
   width: 80px;
   height: 80px;
   position: fixed;
-  top: 24%;
-  left: 14px;
+  top: 25%;
+  left: 10px;
   z-index: 1000;
 }
 .github_icon img {
@@ -438,4 +438,22 @@ footer a img {
 }
 footer a img:hover {
   opacity: 0.6;
+}
+.bg-music {
+  width: 50px;
+  position: fixed;
+  top: 398px;
+  left: 20px;
+}
+.bg-music .play {
+  background-position: 0 top;
+}
+.bg-music .pause {
+  background-position: 0 bottom !important;
+}
+.bg-music .mscBtn {
+  height: 50px;
+  border-radius: 18px;
+  background: #fff url(../../img/musicBtn.gif) no-repeat;
+  display: block;
 }
