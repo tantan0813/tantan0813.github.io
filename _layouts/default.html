@@ -10,7 +10,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <link rel="Shortcut Icon" href="../img/title-icon.png" type="image/x-icon">
   <link rel="alternate" type="application/atom+xml" title="Recent Entries" href="{{ site.feed }}" />
-  <script src="/js/jquery-1.7.1.min.js" type="text/javascript"></script>
+  <script src="../js/jquery-1.7.1.min.js" type="text/javascript"></script>
   <style>{% include style.css %}</style>
   <!--<link href="../_includes/style.css" rel="stylesheet"/>-->
 </head>
@@ -27,6 +27,7 @@
     </div>
   </div>
   {{ content }}
+  <script src="../js/es/inspect_visitor_network_type.js" type="text/javascript"></script>
   <script type="text/javascript">
     $(function() {
       //收放菜单
@@ -47,8 +48,16 @@
           $("#audioBtn").removeClass("pause").addClass("play");
         }else{music.pause();
           $("#audioBtn").removeClass("play").addClass("pause");}});
+      //根据用户的网络环境决定是否加载背景音乐 Whether to load music by User network type
+      isMusicLoad();
+      function isMusicLoad(){
+        $("html").judge({});
+        console.log(net_type);
+      }
+
     })
   </script>
+
 </body>
 
 </html>
