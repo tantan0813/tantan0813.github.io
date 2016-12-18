@@ -45,13 +45,38 @@ layout: default
   </div>
   {% include about.html %}
 </div>
-<script src="/js/post.js" type="text/javascript"></script>
+<script src="../js/post.js" type="text/javascript"></script>
 <script  type="text/javascript">
-  //删除未完善的微博关注功能
-  sina_follower();
-  function sina_follower(){
-    var target = $("#content").find("html");
-    if(target) target.remove();
-  };
+  $(function() {
+    //删除未完善的微博功能
+    function sina_follower(target,del){
+      var target = $(target).find(del);
+      if(target) target.remove();
+    };
+    //judge visitor equipment type
+    function checked_equipment_type(){
+      var sUserAgent = navigator.userAgent.toLowerCase(),
+              bIsIpad = sUserAgent.match(/ipad/i) == "ipad",
+              bIsIphoneOs = sUserAgent.match(/iphone os/i) == "iphone os",
+              bIsMidp = sUserAgent.match(/midp/i) == "midp",
+              bIsUc7 = sUserAgent.match(/rv:1.2.3.4/i) == "rv:1.2.3.4",
+              bIsUc = sUserAgent.match(/ucweb/i) == "ucweb",
+              bIsAndroid = sUserAgent.match(/android/i) == "android",
+              bIsCE = sUserAgent.match(/windows ce/i) == "windows ce",
+              bIsWM = sUserAgent.match(/windows mobile/i) == "windows mobile";
+      if (bIsIpad || bIsIphoneOs || bIsMidp || bIsUc7 || bIsUc || bIsAndroid || bIsCE || bIsWM) {
+        return "phone";
+      } else {
+        return  "pc";
+      }
+    }
+    if(checked_equipment_type() =="pc"){
+      sina("#disqus_container",".share-con");
+      sina(".about-wrapper","iframe");
+    }else if(checked_equipment_type() =="phone"){
+      sina(".about-wrapper","iframe");
+    }
+  })
+
 </script>
 <a id="scrollTop" href="javascript:scroll(0,0)">&#8657;</a>

@@ -11,23 +11,9 @@
             var net_type = Judge_visitor_network_type();
             if(net_type == "4"){
                 //给coding life 添加不同的bg-music
-                var url = getUrlArgStr();//get current URL
-                var url = window.location.pathname;//get current URL
-                console.log(url)
-                var reg_01 = /life\/(,|$)/,reg_02 = /codeing\/(,|$)/ ;
+                var url = window.location.pathname;//get current URL的路径名
+                if(url.indexOf("life") > 0) $("bgMusic").style.src("")
             }
-        }
-        //get current URL
-        function getUrlArgStr(){
-            var q=location.search.substr(1);
-            var qs=q.split('&');
-            var argStr='';
-            if(qs){
-                for(var i=0;i<qs.length;i++){
-                    argStr+=qs[i].substring(0,qs[i].indexOf('='))+'='+qs[i].substring(qs[i].indexOf('=')+1)+'&';
-                }
-            }
-            return argStr;
         }
         //judge visitor equipment type
         function checked_equipment_type(){
