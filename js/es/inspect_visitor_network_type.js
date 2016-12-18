@@ -8,11 +8,17 @@
         //根据用户的网络环境决定是否加载背景音乐 Whether to load music by User network type
         isMusicLoad();
         function isMusicLoad(){
-            var net_type = Judge_visitor_network_type();
-            if(net_type == "4"){
+            var net_type = Judge_visitor_network_type(),
+                url = window.location.pathname;//get current URL的路径名
+            function addMusic(){
                 //给coding life 添加不同的bg-music
-                var url = window.location.pathname;//get current URL的路径名
-                if(url.indexOf("life") > 0) $("bgMusic").style.src("")
+                if(url.indexOf("life") > 0) $("bgMusic").setAttribute("src", "../../music/jile.mp3");
+                if(url.indexOf("coding") > 0) $("bgMusic").setAttribute("src", "../../music/Summer.mp3");
+            }
+            if(net_type == "4"){
+                addMusic();
+            }else if(net_type == "3"){
+                document.getElementById("music").remove();
             }
         }
         //judge visitor equipment type

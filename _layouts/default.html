@@ -42,12 +42,19 @@
         }
       });
       //bg-music-play
-      var music = document.getElementById("bgMusic");
-      $("#audioBtn").click(function(){
-        if(music.paused){music.play();
-          $("#audioBtn").removeClass("pause").addClass("play");
-        }else{music.pause();
-          $("#audioBtn").removeClass("play").addClass("pause");}});
+        bg_music_play();
+        function bg_music_play(){
+            var music = document.getElementById("bgMusic");
+            $("#audioBtn").click(function(){
+                if(music.paused){music.play();
+                    $("#audioBtn").removeClass("pause").addClass("play");
+                }else{music.pause();
+                    $("#audioBtn").removeClass("play").addClass("pause");}});
+            isMusicLoad();
+            function  isMusicLoad(){
+                $("html").judge();
+            }
+        }
     })
   </script>
 

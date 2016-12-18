@@ -1,7 +1,7 @@
 ---
 layout: home
 ---
-<div class="bg-music">
+<div class="bg-music" id="music">
   <a class="mscBtn play" id="audioBtn" style="cursor:pointer;"></a>
   <audio id="bgMusic" src="../music/Summer.mp3" autoplay="autoplay" loop="loop"></audio>
 </div>
