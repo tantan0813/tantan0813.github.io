@@ -22,6 +22,7 @@
                 document.getElementById("music").remove();
             }
         }
+        checked_equipment_type();
         //judge visitor equipment type
         function checked_equipment_type(){
             var sUserAgent = navigator.userAgent.toLowerCase(),
@@ -36,6 +37,7 @@
             if (bIsIpad || bIsIphoneOs || bIsMidp || bIsUc7 || bIsUc || bIsAndroid || bIsCE || bIsWM) {
                 return "phone";
             } else {
+                console.log(233);
                 return  "4";
                 // return  "pc";
             }
@@ -45,21 +47,6 @@
             // 0:iPhone    1:Android
             if(checked_equipment_type() == "phone"){
                 var u = navigator.userAgent, app = navigator.appVersion;
-                // if(/AppleWebKit.*Mobile/i.test(navigator.userAgent) || (/MIDP|SymbianOS|NOKIA|SAMSUNG|LG|NEC|TCL|Alcatel|BIRD|DBTEL|Dopod|PHILIPS|HAIER|LENOVO|MOT-|Nokia|SonyEricsson|SIE-|Amoi|ZTE/.test(navigator.userAgent))){
-                //     if(window.location.href.indexOf("?mobile")<0){
-                //         try{
-                //             if(/iPhone|mac|iPod|iPad/i.test(navigator.userAgent)){
-                //                 return '0';
-                //             }else{
-                //                 return '1';
-                //             }
-                //         }catch(e){}
-                //     }
-                // }else if( u.indexOf('iPad') > -1){
-                //     return '0';
-                // }else{
-                //     return '1';
-                // }
                 var isAndroid = u.indexOf('Android') > -1 || u.indexOf('Linux') > -1; //g
                 var isIOS = !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/); //ios终端
                 if (isAndroid) {
@@ -87,6 +74,7 @@
         }
         function judge_android_network_type(){
             var type = navigator.connection;
+            alert(type);
             //WiFi:qq_Browser  2:common browser  //firebox 20:wifi&3G
             if(type == "wifi" || type == 2 ){
                 return "4";
