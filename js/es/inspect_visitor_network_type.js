@@ -37,7 +37,7 @@
             if (bIsIpad || bIsIphoneOs || bIsMidp || bIsUc7 || bIsUc || bIsAndroid || bIsCE || bIsWM) {
                 return "phone";
             } else {
-                console.log(1);
+                console.log(2);
                 return  "4";
                 // return  "pc";
             }
