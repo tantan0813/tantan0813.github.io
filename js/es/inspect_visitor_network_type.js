@@ -10,6 +10,7 @@
         function isMusicLoad(){
             var net_type = Judge_visitor_network_type(),
                 url = window.location.pathname;//get current URL的路径名
+            alert(net_type);
             function addMusic(){
                 var target = document.getElementById("bgMusic");
                 //给coding life 添加不同的bg-music
@@ -37,7 +38,7 @@
             if (bIsIpad || bIsIphoneOs || bIsMidp || bIsUc7 || bIsUc || bIsAndroid || bIsCE || bIsWM) {
                 return "phone";
             } else {
-                console.log(5);
+                console.log(6);
                 return  "4";
                 // return  "pc";
             }
@@ -76,7 +77,6 @@
             // var type = navigator.connection;
             var connection = navigator.connection || navigator.mozConnection || navigator.webkitConnection;
             var type = connection.type;
-            alert(type);
             //wifi:qq_Browser  2:common browser  //firebox 20:wifi&3G
             if(type == "wifi" || type == 2 ){
                 return "4";
