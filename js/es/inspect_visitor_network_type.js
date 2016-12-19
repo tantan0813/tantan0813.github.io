@@ -37,7 +37,7 @@
             if (bIsIpad || bIsIphoneOs || bIsMidp || bIsUc7 || bIsUc || bIsAndroid || bIsCE || bIsWM) {
                 return "phone";
             } else {
-                console.log(4);
+                console.log(5);
                 return  "4";
                 // return  "pc";
             }
@@ -50,7 +50,6 @@
                 var isAndroid = u.indexOf('Android') > -1 || u.indexOf('Linux') > -1; //g
                 var isIOS = !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/); //ios终端
                 if (isAndroid) {
-                    alert("android");
                     return '1';
                 }else if (isIOS) {
                     return '0';
@@ -77,6 +76,7 @@
             // var type = navigator.connection;
             var connection = navigator.connection || navigator.mozConnection || navigator.webkitConnection;
             var type = connection.type;
+            alert(type);
             //wifi:qq_Browser  2:common browser  //firebox 20:wifi&3G
             if(type == "wifi" || type == 2 ){
                 return "4";
