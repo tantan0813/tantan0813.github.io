@@ -638,6 +638,7 @@ h3.about {
   position: fixed;
   top: 10px;
   left: 120px;
+  z-index: 999;
 }
 .bg-music .mscBtn {
   display: block;
@@ -779,6 +780,7 @@ h3.about {
   .bg-music{
     position: absolute;
     left: 128px;
+    z-index: 999;
   }
   .home-menu {
     position: absolute;
@@ -810,6 +812,7 @@ h3.about {
   .bg-music{
     position: absolute;
     left: 128px;
+    z-index: 999;
   }
 }
 

@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="527ccfea-76fb-4b49-ad55-eccde72d7702" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/coding/template.md" afterPath="$PROJECT_DIR$/_posts/coding/template.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/life/template.md" afterPath="$PROJECT_DIR$/_posts/life/template.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/style.css" afterPath="$PROJECT_DIR$/_includes/style.css" />
     </list>
     <ignored path="Blog.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,21 +25,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="2016-08-08-detect-cpu-usage-with-vs2013.md" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Desktop/FongRay.github.io-master/_posts/coding/2016-08-08-detect-cpu-usage-with-vs2013.md">
+      <file leaf-file-name="2016-12-19-業、道？.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/life/2016-12-19-業、道？.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="8" column="12" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="41" />
+            <state relative-caret-position="400">
+              <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2016-12-19-業、道？.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/_posts/life/2016-12-19-業、道？.md">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_includes/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+            <state relative-caret-position="199">
+              <caret line="634" column="20" selection-start-line="634" selection-start-column="12" selection-end-line="634" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -119,7 +118,6 @@
         <option value="$PROJECT_DIR$/project/index.md" />
         <option value="$PROJECT_DIR$/_posts/life/2016-12-17-from findjog feeling.md" />
         <option value="$PROJECT_DIR$/css/less/resume.less" />
-        <option value="$PROJECT_DIR$/_includes/style.css" />
         <option value="$PROJECT_DIR$/_includes/disqus.html" />
         <option value="$PROJECT_DIR$/resume/resume.html" />
         <option value="$PROJECT_DIR$/js/es/inspect_visitor_  network type.js" />
@@ -134,6 +132,7 @@
         <option value="$PROJECT_DIR$/_posts/life/template.md" />
         <option value="$PROJECT_DIR$/_posts/coding/template.md" />
         <option value="$PROJECT_DIR$/_posts/life/2016-12-19-業、道？.md" />
+        <option value="$PROJECT_DIR$/_includes/style.css" />
       </list>
     </option>
   </component>
@@ -302,6 +301,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tantan0813.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tantan0813.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_includes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -423,12 +436,12 @@
       <workItem from="1482044452248" duration="11823000" />
       <workItem from="1482065259296" duration="733000" />
       <workItem from="1482067000434" duration="4121000" />
-      <workItem from="1482135074053" duration="2821000" />
+      <workItem from="1482135074053" duration="3251000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="207694000" />
+    <option name="totallyTimeSpent" value="208124000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -610,13 +623,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-776">
-          <caret line="715" column="17" selection-start-line="715" selection-start-column="17" selection-end-line="715" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_includes/disqus.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
@@ -782,6 +788,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
           <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="634" column="20" selection-start-line="634" selection-start-column="12" selection-end-line="634" selection-end-column="20" />
           <folding />
         </state>
       </provider>
