@@ -38,7 +38,7 @@
             if (bIsIpad || bIsIphoneOs || bIsMidp || bIsUc7 || bIsUc || bIsAndroid || bIsCE || bIsWM) {
                 return "phone";
             } else {
-                console.log(9);
+                console.log(10);
                 return  "4";
                 // return  "pc";
             }
@@ -65,8 +65,9 @@
                 judge_iphone_network_type();
             }else if( checked_mobile_equipment() == "1"){
                 judge_android_network_type();
+            }else{
+                return "4";
             }
-            return "4";
         }
         // 3：iphone 无法判断及非WiFi    4：WiFi
         function judge_iphone_network_type(){
