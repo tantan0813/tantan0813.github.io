@@ -35,10 +35,9 @@
                 bIsCE = sUserAgent.match(/windows ce/i) == "windows ce",
                 bIsWM = sUserAgent.match(/windows mobile/i) == "windows mobile";
             if (bIsIpad || bIsIphoneOs || bIsMidp || bIsUc7 || bIsUc || bIsAndroid || bIsCE || bIsWM) {
-                alert("phone");
                 return "phone";
             } else {
-                console.log(3);
+                console.log(4);
                 return  "4";
                 // return  "pc";
             }
@@ -51,6 +50,7 @@
                 var isAndroid = u.indexOf('Android') > -1 || u.indexOf('Linux') > -1; //g
                 var isIOS = !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/); //ios终端
                 if (isAndroid) {
+                    alert("android");
                     return '1';
                 }else if (isIOS) {
                     return '0';
