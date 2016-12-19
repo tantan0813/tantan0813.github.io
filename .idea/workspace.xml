@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="527ccfea-76fb-4b49-ad55-eccde72d7702" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/music/Summer.mp3" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/music/jile.mp3" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/es/inspect_visitor_network_type.js" afterPath="$PROJECT_DIR$/js/es/inspect_visitor_network_type.js" />
     </list>
     <ignored path="Blog.iws" />
@@ -31,8 +28,8 @@
       <file leaf-file-name="inspect_visitor_network_type.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/es/inspect_visitor_network_type.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="15" column="217" selection-start-line="15" selection-start-column="217" selection-end-line="15" selection-end-column="217" />
+            <state relative-caret-position="375">
+              <caret line="15" column="141" selection-start-line="15" selection-start-column="141" selection-end-line="15" selection-end-column="141" />
               <folding />
             </state>
           </provider>
@@ -413,12 +410,12 @@
       <workItem from="1482044452248" duration="11823000" />
       <workItem from="1482065259296" duration="733000" />
       <workItem from="1482067000434" duration="4121000" />
-      <workItem from="1482135074053" duration="5856000" />
+      <workItem from="1482135074053" duration="6472000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="210729000" />
+    <option name="totallyTimeSpent" value="211345000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -773,8 +770,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/es/inspect_visitor_network_type.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="15" column="217" selection-start-line="15" selection-start-column="217" selection-end-line="15" selection-end-column="217" />
+        <state relative-caret-position="375">
+          <caret line="15" column="141" selection-start-line="15" selection-start-column="141" selection-end-line="15" selection-end-column="141" />
           <folding />
         </state>
       </provider>
