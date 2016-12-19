@@ -13,7 +13,7 @@
             function addMusic(){
                 var target = document.getElementById("bgMusic");
                 //给coding life 添加不同的bg-music
-                if(url.indexOf("life") > 0) target.setAttribute("src", "http://45.124.125.98/m10.music.126.net/20161219175732/feecc20725834dcc5ce5970ee672619a/ymusic/1475/5594/3fcc3/c0260edde4ec4743d1c40f0594f4afa2.mp3");
+                if(url.indexOf("life") > 0) target.setAttribute("src", "http://45.124.125.99/m10.music.126.net/20161219182243/0a724299c9ea4546ae03e1b24d5f3835/ymusic/dbe4/0299/c474/c54e102752c36115ffe1e440d799b3b0.mp3");
                 if(url.indexOf("coding") > 0) target.setAttribute("src", "http://45.124.125.97/m10.music.126.net/20161219180429/fd501b6e5cf12f73a4f656a60fda1218/ymusic/a19d/0542/3f4a/22f668de5d922babf9720154b6de09bb.mp3");
             }
             if(net_type == "4"){
