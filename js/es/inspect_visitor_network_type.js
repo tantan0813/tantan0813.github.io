@@ -38,7 +38,7 @@
             if (bIsIpad || bIsIphoneOs || bIsMidp || bIsUc7 || bIsUc || bIsAndroid || bIsCE || bIsWM) {
                 return "phone";
             } else {
-                console.log(88);
+                console.log(9);
                 return  "4";
                 // return  "pc";
             }
@@ -80,10 +80,10 @@
             alert(type);
             //wifi:qq_Browser  2:common browser  //firebox 20:wifi&3G
             if(type == "wifi" || type == 2 ){
-                alert(type);
+                alert(1);
                 return "4";
             }
-            alert(type);
+            alert(2);
             return "3";
         }
     }
