@@ -11,9 +11,10 @@
             var net_type = Judge_visitor_network_type(),
                 url = window.location.pathname;//get current URL的路径名
             function addMusic(){
+                var target = document.getElementById("bgMusic");
                 //给coding life 添加不同的bg-music
-                if(url.indexOf("life") > 0) document.getElementById("bgMusic").setAttribute("src", "../../music/jile.mp3");
-                if(url.indexOf("coding") > 0) document.getElementById("bgMusic").setAttribute("src", "../../music/Summer.mp3");
+                if(url.indexOf("life") > 0) target.setAttribute("src", "../music/jile.mp3");
+                if(url.indexOf("coding") > 0) target.setAttribute("src", "../music/Summer.mp3");
             }
             if(net_type == "4"){
                 addMusic();
