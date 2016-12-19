@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="527ccfea-76fb-4b49-ad55-eccde72d7702" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/coding/2016-12-18-jQuery开发判断访问者网络格式插件.md" afterPath="$PROJECT_DIR$/_posts/coding/2016-12-18-jQuery开发判断访问者网络格式插件.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/es/inspect_visitor_network_type.js" afterPath="$PROJECT_DIR$/js/es/inspect_visitor_network_type.js" />
     </list>
     <ignored path="Blog.iws" />
@@ -39,8 +38,8 @@
       <file leaf-file-name="inspect_visitor_network_type.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/es/inspect_visitor_network_type.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-692">
-              <caret line="39" column="29" selection-start-line="39" selection-start-column="29" selection-end-line="39" selection-end-column="29" />
+            <state relative-caret-position="208">
+              <caret line="40" column="29" selection-start-line="40" selection-start-column="29" selection-end-line="40" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -431,12 +430,12 @@
       <workItem from="1482044452248" duration="11823000" />
       <workItem from="1482065259296" duration="733000" />
       <workItem from="1482067000434" duration="4121000" />
-      <workItem from="1482135074053" duration="10122000" />
+      <workItem from="1482135074053" duration="10829000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="214995000" />
+    <option name="totallyTimeSpent" value="215702000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -791,8 +790,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/es/inspect_visitor_network_type.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-692">
-          <caret line="39" column="29" selection-start-line="39" selection-start-column="29" selection-end-line="39" selection-end-column="29" />
+        <state relative-caret-position="208">
+          <caret line="40" column="29" selection-start-line="40" selection-start-column="29" selection-end-line="40" selection-end-column="29" />
           <folding />
         </state>
       </provider>

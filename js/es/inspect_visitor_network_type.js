@@ -35,9 +35,10 @@
                 bIsCE = sUserAgent.match(/windows ce/i) == "windows ce",
                 bIsWM = sUserAgent.match(/windows mobile/i) == "windows mobile";
             if (bIsIpad || bIsIphoneOs || bIsMidp || bIsUc7 || bIsUc || bIsAndroid || bIsCE || bIsWM) {
+                alert("phone");
                 return "phone";
             } else {
-                console.log(2);
+                console.log(3);
                 return  "4";
                 // return  "pc";
             }
@@ -70,15 +71,13 @@
         // 3：iphone 无法判断及非WiFi    4：WiFi
         function judge_iphone_network_type(){
             //iphone noway to judge
-            alert(2);
             return "3";
         }
         function judge_android_network_type(){
             // var type = navigator.connection;
             var connection = navigator.connection || navigator.mozConnection || navigator.webkitConnection;
             var type = connection.type;
-            alert(1);
-            //WiFi:qq_Browser  2:common browser  //firebox 20:wifi&3G
+            //wifi:qq_Browser  2:common browser  //firebox 20:wifi&3G
             if(type == "wifi" || type == 2 ){
                 return "4";
             }
