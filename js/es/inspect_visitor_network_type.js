@@ -22,7 +22,7 @@
                 document.getElementById("music").remove();
             }
         }
-        checked_equipment_type();
+        // checked_equipment_type();
         //judge visitor equipment type
         function checked_equipment_type(){
             var sUserAgent = navigator.userAgent.toLowerCase(),
@@ -37,7 +37,7 @@
             if (bIsIpad || bIsIphoneOs || bIsMidp || bIsUc7 || bIsUc || bIsAndroid || bIsCE || bIsWM) {
                 return "phone";
             } else {
-                console.log(233);
+                console.log(1);
                 return  "4";
                 // return  "pc";
             }
@@ -70,11 +70,14 @@
         // 3：iphone 无法判断及非WiFi    4：WiFi
         function judge_iphone_network_type(){
             //iphone noway to judge
+            alert(2);
             return "3";
         }
         function judge_android_network_type(){
-            var type = navigator.connection;
-            alert(type);
+            // var type = navigator.connection;
+            var connection = navigator.connection || navigator.mozConnection || navigator.webkitConnection;
+            var type = connection.type;
+            alert(1);
             //WiFi:qq_Browser  2:common browser  //firebox 20:wifi&3G
             if(type == "wifi" || type == 2 ){
                 return "4";
