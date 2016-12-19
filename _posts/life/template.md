@@ -9,4 +9,4 @@ category: life
 
 
 
-[Fong Ray]: http://www.fangr.tk  "Fong Ray"
+[minTan]: https://tantan0813.github.io/coding/  "minTan"
