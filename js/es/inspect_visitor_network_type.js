@@ -14,7 +14,7 @@
             function addMusic(){
                 var target = document.getElementById("bgMusic");
                 //给coding life 添加不同的bg-music
-                // if(url.indexOf("life") > 0) target.setAttribute("src", "http://m2.music.126.net/7I3Z3JsyHLvCcNHCxk0wbQ==/3420580726120857.mp3");
+                if(url.indexOf("life") > 0) target.setAttribute("src", "http://m2.music.126.net/7I3Z3JsyHLvCcNHCxk0wbQ==/3420580726120857.mp3");
                 if(url.indexOf("coding") > 0) target.setAttribute("src", "http://m2.music.126.net/-d73pDTFK_7utRBknyLP9A==/528865118117207.mp3");
             }
             if(net_type == "4"){
@@ -38,7 +38,6 @@
             if (bIsIpad || bIsIphoneOs || bIsMidp || bIsUc7 || bIsUc || bIsAndroid || bIsCE || bIsWM) {
                 return "phone";
             } else {
-                console.log(11);
                 return  "4";
                 // return  "pc";
             }
@@ -67,13 +66,10 @@
             }else if( checked_mobile_equipment() == "1"){
                 var connection = navigator.connection || navigator.mozConnection || navigator.webkitConnection;
                 var type = connection.type;
-                alert(type);
                 //wifi:qq_Browser  2:common browser  //firebox 20:wifi&3G
                 if(type == "wifi" || type == 2 ){
-                    alert(1);
                     return "4";
                 }
-                alert(2);
                 return "3";
             }else{
                 return "4";
