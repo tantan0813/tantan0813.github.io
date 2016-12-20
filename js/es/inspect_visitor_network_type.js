@@ -38,7 +38,7 @@
             if (bIsIpad || bIsIphoneOs || bIsMidp || bIsUc7 || bIsUc || bIsAndroid || bIsCE || bIsWM) {
                 return "phone";
             } else {
-                console.log(10);
+                console.log(11);
                 return  "4";
                 // return  "pc";
             }
@@ -61,31 +61,23 @@
         //Judge visitor network type sort of phone
         function Judge_visitor_network_type(){
             // 0:iPhone    1:Android
+            // 3：iphone 无法判断及非WiFi    4：WiFi
             if(checked_mobile_equipment() == "0"){
-                judge_iphone_network_type();
+                return "3";
             }else if( checked_mobile_equipment() == "1"){
-                judge_android_network_type();
+                var connection = navigator.connection || navigator.mozConnection || navigator.webkitConnection;
+                var type = connection.type;
+                alert(type);
+                //wifi:qq_Browser  2:common browser  //firebox 20:wifi&3G
+                if(type == "wifi" || type == 2 ){
+                    alert(1);
+                    return "4";
+                }
+                alert(2);
+                return "3";
             }else{
                 return "4";
             }
-        }
-        // 3：iphone 无法判断及非WiFi    4：WiFi
-        function judge_iphone_network_type(){
-            //iphone noway to judge
-            return "3";
-        }
-        function judge_android_network_type(){
-            // var type = navigator.connection;
-            var connection = navigator.connection || navigator.mozConnection || navigator.webkitConnection;
-            var type = connection.type;
-            alert(type);
-            //wifi:qq_Browser  2:common browser  //firebox 20:wifi&3G
-            if(type == "wifi" || type == 2 ){
-                alert(1);
-                return "4";
-            }
-            alert(2);
-            return "3";
         }
     }
 })(jQuery);
