@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="527ccfea-76fb-4b49-ad55-eccde72d7702" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/coding/2016-12-21-前端工程师技能图谱.md" afterPath="$PROJECT_DIR$/_posts/coding/2016-12-21-前端工程师技能图谱.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/es/inspect_visitor_network_type.js" afterPath="$PROJECT_DIR$/js/es/inspect_visitor_network_type.js" />
     </list>
     <ignored path="Blog.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -49,8 +49,8 @@
       <file leaf-file-name="2016-12-21-前端工程师技能图谱.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_posts/coding/2016-12-21-前端工程师技能图谱.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+            <state relative-caret-position="375">
+              <caret line="258" column="52" selection-start-line="258" selection-start-column="52" selection-end-line="258" selection-end-column="52" />
               <folding />
             </state>
           </provider>
@@ -443,12 +443,12 @@
       <workItem from="1482067000434" duration="4121000" />
       <workItem from="1482135074053" duration="16003000" />
       <workItem from="1482205220087" duration="1776000" />
-      <workItem from="1482313502689" duration="824000" />
+      <workItem from="1482313502689" duration="1548000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="223476000" />
+    <option name="totallyTimeSpent" value="224200000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1370" height="744" extended-state="0" />
@@ -793,8 +793,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/coding/2016-12-21-前端工程师技能图谱.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+        <state relative-caret-position="375">
+          <caret line="258" column="52" selection-start-line="258" selection-start-column="52" selection-end-line="258" selection-end-column="52" />
           <folding />
         </state>
       </provider>
