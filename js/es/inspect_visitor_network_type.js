@@ -10,7 +10,7 @@
         function isMusicLoad(){
             var net_type = Judge_visitor_network_type(),
                 url = window.location.pathname;//get current URL的路径名
-            alert(net_type);
+            // alert(net_type);
             function addMusic(){
                 var target = document.getElementById("bgMusic");
                 //给coding life 添加不同的bg-music
