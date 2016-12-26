@@ -14,8 +14,8 @@
             function addMusic(){
                 var target = document.getElementById("bgMusic");
                 //给coding life 添加不同的bg-music
-                if(url.indexOf("life") > 0) target.setAttribute("src", "http://m2.music.126.net/VCXWODSoU-UOEwwkFP0_Sw==/7971459303055692.mp3");
-                if(url.indexOf("coding") > 0) target.setAttribute("src", "http://m2.music.126.net/7ncRNyYzq0RnIydZNg6oKg==/1391981736256087.mp3");
+                if(url.indexOf("life") > 0) target.setAttribute("src", "http://m2.music.126.net/7ncRNyYzq0RnIydZNg6oKg==/1391981736256087.mp3");
+                if(url.indexOf("coding") > 0) target.setAttribute("src", "http://m2.music.126.net/VCXWODSoU-UOEwwkFP0_Sw==/7971459303055692.mp3");
             }
             if(net_type == "4"){
                 addMusic();
