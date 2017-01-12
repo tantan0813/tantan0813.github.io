@@ -3,8 +3,6 @@
 */
 (function ($) {
 
-
-
   //默认参数
   var defaults = {
     totalPages: 9,//总页数
