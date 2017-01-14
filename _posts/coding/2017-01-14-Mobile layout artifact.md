@@ -72,5 +72,8 @@ PC端：chrome（测试版本：49.0.2623.110 m）和火狐（测试版本：49.
 
 注：添加浏览器前缀比较麻烦，建议配合`gulp`中的`auto-prefix`使用
 
+-[参考文档][3]
+
 [1]:http://www.cnblogs.com/walk-on-the-way/p/5997073.html
 [2]:http://www.ruanyifeng.com/blog/2015/07/flex-grammar.html
+[3]:http://www.gulpjs.com.cn/docs/getting-started/
