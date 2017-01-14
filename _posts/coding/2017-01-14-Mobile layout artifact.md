@@ -6,7 +6,7 @@ category: coding
 ---
 起因是看了勾三股四关于`display:flex`的微博，感觉总结的很到位。然后我一个好朋友的blog也开了关于`display:flex`的文章，纠结的是那个傻逼没有完篇，就是开了个题，我有强迫症看不下去了，请让我来终结这个！
 
-## 1.`display:flex`之于`display:box;`讨论最多的就是兼容性：
+## 1.display:flex之于display:box;讨论最多的就是兼容性：
 
 - [两者兼容性比较][1]
 
@@ -32,7 +32,7 @@ PC端：chrome（测试版本：49.0.2623.110 m）和火狐（测试版本：49.
 
 结论：不考虑IE浏览器的话，PC端上使用哪个都可以，一般使用display:flex；移动端的安卓的UC只支持display:box，iOS的UCdisplay:box和display:flex两个都支持。
 
-## 今天主要讨论`display:flex;`
+## 2.今天主要讨论display:flex;
 
 分为两个部分：自己的测试、大神的总结
 
@@ -66,7 +66,7 @@ PC端：chrome（测试版本：49.0.2623.110 m）和火狐（测试版本：49.
 ![image](http://ww4.sinaimg.cn/mw690/660d0cdfjw1etlhxkrusyj218g0xcwhn.jpg)
 ![image](http://ww4.sinaimg.cn/mw690/660d0cdfjw1etlhxl3605j218g0xcwip.jpg)
 
-## 3.详细版：
+## 3.详细版
 
 - [阮一峰详细版][2]
 
