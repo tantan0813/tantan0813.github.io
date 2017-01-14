@@ -4,13 +4,13 @@ title: Mobile Layout artifact
 description: 移动端布局神器
 category: coding
 ---
-起因是看了勾三股四关于`display:flex`的微博，感觉总结的很到位。然后我一个好朋友的blog也开了关于`display:flex`的文章，纠结的是那个傻逼没有完篇，就是开了个题，我有强迫症看不下去了，让我来终结这个吧！
+起因是看了勾三股四关于`display:flex`的微博，感觉总结的很到位。然后我一个好朋友的blog也开了关于`display:flex`的文章，纠结的是那个傻逼没有完篇，就是开了个题，我有强迫症看不下去了，请让我来终结这个！
 
-1.`display:flex`之于`display:box;`讨论最多的就是兼容性：
+## 1.`display:flex`之于`display:box;`讨论最多的就是兼容性：
 
 - [两者兼容性比较][1]
 
-1.1display:flex;
+### 1.1display:flex;
 对于PC端，一般chrome（测试版本：49.0.2623.110 m）和火狐（测试版本：49.0.2）都能很好地支持。ie不支持，显示的是顺序排列下来的宽度100%的模块。
 
 对于移动端：
@@ -19,7 +19,7 @@ category: coding
 
 （2）安卓的原生浏览器不支持，能够正常显示模块，文档流依次排列；UC浏览器不支持，显示为空白；微信浏览器不支持（测试机型：华为荣耀6 Plus，Android4.4.2）
 
-1.2display:box;
+### 1.2display:box;
 PC端：chrome（测试版本：49.0.2623.110 m）和火狐（测试版本：49.0.2）都能很好地支持。ie不支持，显示的是顺序排列下来的宽度100%的模块。
 
 移动端：
@@ -32,10 +32,11 @@ PC端：chrome（测试版本：49.0.2623.110 m）和火狐（测试版本：49.
 
 结论：不考虑IE浏览器的话，PC端上使用哪个都可以，一般使用display:flex；移动端的安卓的UC只支持display:box，iOS的UCdisplay:box和display:flex两个都支持。
 
-2今天主要讨论`display:flex;`
+## 今天主要讨论`display:flex;`
+
 分为两个部分：自己的测试、大神的总结
 
-2.1自己测试：
+### 2.1自己测试：
 
     display:flex;//ie10开始支持,父類一共五個屬性
     //flex-direction:row;
@@ -56,7 +57,7 @@ PC端：chrome（测试版本：49.0.2623.110 m）和火狐（测试版本：49.
     flex:none;//flex属性是flex-grow, flex-shrink 和 flex-basis的简写，默认值为0 1 auto。后两个属性可选。
     align-self:center;//align-self属性允许单个项目有与其他项目不一样的对齐方式，可覆盖align-items属性。默认值为auto，表示继承父元素的align-items属性，如果没有父元素，则等同于stretch。
 
-2.2大神总结：
+### 2.2大神总结：
 
 ![image](http://ww4.sinaimg.cn/mw690/660d0cdfjw1etlhxhx0lgj218g0xc76b.jpg)
 ![image](http://ww1.sinaimg.cn/mw690/660d0cdfjw1etlhxise4kj218g0xc0vf.jpg)
@@ -65,7 +66,7 @@ PC端：chrome（测试版本：49.0.2623.110 m）和火狐（测试版本：49.
 ![image](http://ww4.sinaimg.cn/mw690/660d0cdfjw1etlhxkrusyj218g0xcwhn.jpg)
 ![image](http://ww4.sinaimg.cn/mw690/660d0cdfjw1etlhxl3605j218g0xcwip.jpg)
 
-3.详细版：
+## 3.详细版：
 
 - [阮一峰详细版][2]
 
