@@ -1,5 +1,7 @@
 "use strict";
 
+var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
+
 /**
  * Created by tanmi on 2016/12/7.
  */
@@ -8,5 +10,7 @@
 // arr.sort((p,n)=>n-p).forEach((v,i)=>{i%2==0?res.unshift(v):res.push(v)});
 
 
-var s = "../coding/*";
-console.log(22222, s);
+$(function () {
+  var _list = $("#artical-list>li");
+  console.log(_list, typeof _list === "undefined" ? "undefined" : _typeof(_list));
+});

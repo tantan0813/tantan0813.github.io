@@ -6,5 +6,7 @@
 // arr.sort((p,n)=>n-p).forEach((v,i)=>{i%2==0?res.unshift(v):res.push(v)});
 
 
-    var s="../coding/*"
-    console.log(22222,s);
+$(function() {
+   var _list=$("#artical-list>li");
+   console.log(_list,typeof _list)
+})
