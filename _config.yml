@@ -15,3 +15,7 @@ deploy:
   type: git
   repository: https://github.com/tantan0813/tantan0813.github.io.git
   branch: master
+
+paginate:5
+paginate_path: "page:num"
+gems: [jekyll-paginate]
