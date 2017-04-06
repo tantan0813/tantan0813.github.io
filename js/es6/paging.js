@@ -13,6 +13,7 @@ $(function() {
    // console.log(list[2],1101010);
     var show_bg=list.slice(0,5);
     var show_no=list.slice(5);
+    console.log(show_bg,show_no)
     show_bg.setAttribute("display", "block");
     show_no.setAttribute("display", "none");
     var pages=Math.ceil(list.length/5);
