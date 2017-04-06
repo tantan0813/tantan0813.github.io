@@ -17,5 +17,5 @@ deploy:
   branch: master
 
 paginate: 5
-paginate_path: "page:num"
+paginate_path: "_posts/coding/page:num"
 gems: [jekyll-paginate]
