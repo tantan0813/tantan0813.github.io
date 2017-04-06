@@ -9,8 +9,13 @@
 $(function() {
    var _list=$(".list");
    var list = Array.prototype.splice.call(_list,0);//转化为数组
-   console.log(_list,typeof _list,typeof list,_list.length,list.length);
-   console.log(list[2],1101010);
+   // console.log(_list,typeof _list,typeof list,_list.length,list.length);
+   // console.log(list[2],1101010);
+    var show_bg=list.slice(0,5);
+    var show_no=list.slice(5);
+    show_bg.style.display = "none";
+    show_no.style.dispaly="block";
+    var pages=Math.ceil(list.length/5);
 });
 
 
