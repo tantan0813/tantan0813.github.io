@@ -8,5 +8,6 @@
 
 $(function() {
    var _list=$("#artical-list>li");
-   console.log(_list,typeof _list,_list.length);
+   var list = Array.prototype.splice.call(_list,0)
+   console.log(_list,typeof _list,typeof list,list.length);
 })
