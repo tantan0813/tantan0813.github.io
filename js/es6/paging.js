@@ -12,3 +12,10 @@ $(function() {
    console.log(_list,typeof _list,typeof list,_list.length,list.length);
    console.log(list[2],1101010);
 });
+
+
+
+
+
+
+
