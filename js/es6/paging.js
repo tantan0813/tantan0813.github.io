@@ -10,5 +10,5 @@ $(function() {
    var _list=$(".list");
    var list = Array.prototype.splice.call(_list,0);
    // var list = $.makeArray(_list);
-   console.log(_list,typeof _list,typeof list,list.length);
+   console.log(_list,typeof _list,typeof list,_list.length,list.length);
 })
