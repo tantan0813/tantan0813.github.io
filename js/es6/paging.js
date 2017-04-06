@@ -8,5 +8,5 @@
 
 $(function() {
    var _list=$("#artical-list>li");
-   console.log(_list,typeof _list)
+   console.log(_list,typeof _list,_list.length);
 })

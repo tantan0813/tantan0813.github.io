@@ -12,5 +12,5 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
 
 $(function () {
   var _list = $("#artical-list>li");
-  console.log(_list, typeof _list === "undefined" ? "undefined" : _typeof(_list));
+  console.log(_list, typeof _list === "undefined" ? "undefined" : _typeof(_list), _list.length);
 });
