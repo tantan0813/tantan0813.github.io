@@ -12,7 +12,6 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
 
 $(function () {
    var _list = $(".list");
-   var list = Array.prototype.splice.call(_list, 0);
-   // var list = $.makeArray(_list);
+   var list = Array.prototype.splice.call(_list, 0); //转化为数组
    console.log(_list, typeof _list === "undefined" ? "undefined" : _typeof(_list), typeof list === "undefined" ? "undefined" : _typeof(list), _list.length, list.length);
 });
