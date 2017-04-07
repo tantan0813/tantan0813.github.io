@@ -9,9 +9,9 @@
 $(function() {
     // var list=$(".list");
     var list = document.getElementsByClassName("list");
-    var show_bg=list.slice(0,5);
-    var show_no=list.slice(5);
-    console.log(list,typeof list,list.length);
+    // var show_bg=list.slice(0,5);
+    // var show_no=list.slice(5);
+    console.log(list,typeof list,list.length,list[0]);
     show_bg.setAttribute("display", "block");
     show_no.setAttribute("display", "none");
     var pages=Math.ceil(list.length/5);
