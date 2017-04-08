@@ -60,11 +60,10 @@
 
         page($(".artical-list>li"),5,$(".artical-list"),"page_active");
         function page(content,page_len,place,active){//参数依次为分页内容体、每页的内容数量，页码的添加位置，页码活跃时的样式
-            console.log(116);
+            console.log(117);
             var list = content;
             console.log(content);
             console.log(list[0]);
-            list[0].addClass=active;
             list.slice(0,page_len).css("display", "block");
             list.slice(page_len).css("display", "none");
             var pages=Math.ceil(list.length/page_len);
@@ -74,7 +73,9 @@
             }
             s+="<li class='next' title='当前后五页'>next</li></ul>";
             place.after(s);
-            $(".page_num").on("click",function(){
+            var target = $(".page_num");
+            target[0].addClass=active;
+            target.on("click",function(){
                 var num = $(this).text()*page_len;
                 $(this).addClass(active).siblings().removeClass(active);
                 var show_ing=list.slice(num-page_len,num);
