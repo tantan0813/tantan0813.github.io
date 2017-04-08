@@ -846,3 +846,30 @@ h3.about {
   text-align: left;
   padding-top: 5px;
 }
+/*页码样式*/
+.page_index{
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  line-height: 24px;
+  text-align: center;
+}
+.page_index .pre,.page_index .next{
+  width: 40px;
+  background-color: #00A0E8;
+  border-radius:10%;
+}
+.page_index li{
+  width: 20px;
+  height: 24px;
+  border-radius: 50%;
+  border: 1px solid black;
+  margin-left: 20px;
+  cursor: pointer;
+}
+.page_index  .page_active{
+  background-color: #1BA0E1;
+}
+.page_index li:hover{
+  background-color: #1BA0E1;
+}
