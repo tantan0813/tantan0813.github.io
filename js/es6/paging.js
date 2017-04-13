@@ -32,7 +32,7 @@ $(function() {
     var rip=document.getElementsByClassName("aside");
     ripple(rip);
     function ripple(target){
-        console.log(18);
+        console.log(19);
         console.log(target);
         var canvas = {},
             centerX = 0,
