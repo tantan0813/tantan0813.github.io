@@ -33,7 +33,7 @@ $(function() {
     // var rip=document.getElementsByClassName("aside");
     ripple();
     function ripple(target){
-        console.log(13);
+        console.log(14);
         console.log(target);
         var canvas = {},
             centerX = 0,
