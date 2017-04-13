@@ -35,6 +35,7 @@ $(function () {
     ripple(rip);
     function ripple(target) {
         console.log(1);
+        console.log(target);
         var canvas = {},
             centerX = 0,
             centerY = 0,
