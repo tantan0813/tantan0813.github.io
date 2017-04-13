@@ -31,7 +31,8 @@ $(function () {
     //         show_no_next.css("display", "none");
     //     });
     // }
-    // var rip=document.getElementsByClassName("aside")
+    // 点击波纹效果
+    // var rip=document.getElementsByClassName("aside");
     ripple();
     function ripple(target) {
         console.log(13);
