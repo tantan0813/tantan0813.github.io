@@ -7,14 +7,14 @@ layout: home
 </div>
 <div class="index-content coding">
   <div class="section">
-    <ul class="artical-cate">
+    <ul class="artical-cate ">
       <li class="on"><a href="/coding"><span>程序人生</span></a></li>
       <li style="text-align:center"><a href="/life"><span>心情杂记</span></a></li>
     </ul>
 
     <div class="cate-bar"><span id="cateBar"></span></div>
 
-    <ul class="artical-list">
+    <ul class="artical-list list-art">
       {% for post in site.categories.coding %} {% if {{post.title}} !='Coming Conferences and Activities' %}
       <li>
         <div class="table-article">
