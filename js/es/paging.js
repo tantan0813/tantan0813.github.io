@@ -9,7 +9,6 @@
 
 
 $(function () {
-    console.log(12);
     // page($("#skill>div"),2,$("#skill"),"page_active");
     // function page(content,page_len,place,active){//参数依次为分页内容体、每页的内容数量，页码的添加位置，页码活跃时的样式
     //     var list = content;
@@ -35,7 +34,7 @@ $(function () {
     // var rip=document.getElementsByClassName("aside");
     ripple();
     function ripple(target) {
-        console.log(14);
+        console.log(15);
         console.log(target);
         var canvas = {},
             centerX = 0,
