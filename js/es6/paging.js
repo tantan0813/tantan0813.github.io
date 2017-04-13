@@ -29,17 +29,17 @@ $(function() {
     //     });
     // }
     // 点击波纹效果
-    // var rip=document.getElementsByClassName("aside");
-    // ripple();
-    // function ripple(target){
-        console.log(19);
-        // console.log(target);
+    var rip=document.getElementsByClassName("aside");
+    ripple();
+    function ripple(target){
+        console.log(18);
+        console.log(target);
         var canvas = {},
             centerX = 0,
             centerY = 0,
             color = '',
-            containers = document.getElementsByClassName('material-design');
-            // containers = target;
+            // containers = document.getElementsByClassName('material-design');
+            containers = target,
         context = {},
             element = {},
             radius = 0,
@@ -97,7 +97,7 @@ $(function() {
                 }
             };
         init();
-    // }
+    }
 });
 
 
