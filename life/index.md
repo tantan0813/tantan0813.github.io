@@ -14,7 +14,7 @@ layout: home
 
     <div class="cate-bar"><span id="cateBar"></span></div>
 
-    <ul class="artical-list">
+    <ul class="artical-list list-art">
       {% for post in site.categories.life %} {% if {{post.title}} !='Coming Conferences and Activities' %}
       <li>
         <div class="table-article">
