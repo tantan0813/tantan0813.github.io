@@ -31,8 +31,8 @@ $(function () {
     //         show_no_next.css("display", "none");
     //     });
     // }
-    var rip = document.getElementsByClassName("aside");
-    ripple(rip);
+    // var rip=document.getElementsByClassName("aside")
+    ripple();
     function ripple(target) {
         console.log(13);
         console.log(target);
@@ -40,8 +40,7 @@ $(function () {
             centerX = 0,
             centerY = 0,
             color = '',
-
-        // containers = document.getElementsByClassName('material-design');
+            containers = document.getElementsByClassName('material-design');
         containers = target;
         context = {}, element = {}, radius = 0,
         // 根据callback生成requestAnimationFrame动画
