@@ -51,6 +51,7 @@ $(function() {
             },
             // 点击并且获取需要的数据，如点击坐标、元素大小、颜色
             press = function (event) {
+                console.log(22);
                 color = event.toElement.parentElement.dataset.color;
                 element = event.toElement;
                 context = element.getContext('2d');
