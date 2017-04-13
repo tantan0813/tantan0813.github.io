@@ -32,7 +32,7 @@ $(function () {
     // }
     // 点击波纹效果
     var rip = document.getElementsByClassName("aside");
-    ripple();
+    ripple(rip);
     function ripple(target) {
         console.log(18);
         console.log(target);
