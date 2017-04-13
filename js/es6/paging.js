@@ -32,7 +32,7 @@ $(function() {
     var rip=document.getElementsByClassName("aside");
     ripple(rip);
     function ripple(target){
-        console.log(19);
+        console.log(20);
         console.log(target);
         var canvas = {},
             centerX = 0,
@@ -60,6 +60,7 @@ $(function() {
             init = function () {
                 console.log(2);
                 containers = Array.prototype.slice.call(containers);
+                // console.log(containers.length);
                 for (var i = 0; i < containers.length; i += 1) {
                     canvas = document.createElement('canvas');
                     canvas.addEventListener('click', press, false);
@@ -68,6 +69,7 @@ $(function() {
                     canvas.style.height='100%';
                     canvas.width = canvas.offsetWidth;
                     canvas.height = canvas.offsetHeight;
+                    console.log(canvas);
                 }
             },
             // 点击并且获取需要的数据，如点击坐标、元素大小、颜色
