@@ -34,14 +34,14 @@ $(function () {
     // var rip=document.getElementsByClassName("aside");
     ripple();
     function ripple(target) {
-        console.log(15);
+        console.log(16);
         console.log(target);
         var canvas = {},
             centerX = 0,
             centerY = 0,
             color = '',
             containers = document.getElementsByClassName('material-design');
-        containers = target;
+        // containers = target;
         context = {}, element = {}, radius = 0,
         // 根据callback生成requestAnimationFrame动画
         requestAnimFrame = function () {
