@@ -7,27 +7,6 @@
 
 
 $(function() {
-    // page($("#skill>div"),2,$("#skill"),"page_active");
-    // function page(content,page_len,place,active){//参数依次为分页内容体、每页的内容数量，页码的添加位置，页码活跃时的样式
-    //     var list = content;
-    //     var pages=Math.ceil(list.length/page_len);
-    //     var s="<ul class='page_index'><li class='pre' title='当前前五页'>pre</li>";
-    //     for(var i=1;i<=pages;i++){
-    //         s+="<li class='page_num'>"+i+"</li>";
-    //     }
-    //     s+="<li class='next' title='当前后五页'>next</li></ul>";
-    //     place.after(s);
-    //     $(".page_num").on("click",function(){
-    //         var num = $(this).text()*page_len;
-    //         $(this).addClass(active).siblings().removeClass(active);
-    //         var show_ing=list.slice(num-page_len,num);
-    //         var show_no_next=list.slice(num);
-    //         var show_no_pre=list.slice(0,num-page_len);
-    //         show_ing.css("display", "block");
-    //         show_no_pre.css("display", "none");
-    //         show_no_next.css("display", "none");
-    //     });
-    // }
     // 点击波纹效果
     var rip=document.getElementsByClassName("aside");
     ripple(rip);
@@ -45,7 +24,6 @@ $(function() {
             radius = 0,
             // 根据callback生成requestAnimationFrame动画
             requestAnimFrame = function () {
-                console.log(1);
                 return (
                     window.requestAnimationFrame    ||
                     window.mozRequestAnimationFrame  ||
@@ -58,7 +36,6 @@ $(function() {
             } (),
             // 为每个指定元素生成canves
             init = function () {
-                console.log(2);
                 containers = Array.prototype.slice.call(containers);
                 // console.log(containers.length);
                 for (var i = 0; i < containers.length; i += 1) {
@@ -74,7 +51,6 @@ $(function() {
             },
             // 点击并且获取需要的数据，如点击坐标、元素大小、颜色
             press = function (event) {
-                console.log(3);
                 color = event.toElement.parentElement.dataset.color;
                 element = event.toElement;
                 context = element.getContext('2d');
@@ -86,7 +62,6 @@ $(function() {
             },
             // 绘制圆形，并且执行动画
             draw = function () {
-                console.log(4);
                 context.beginPath();
                 context.arc(centerX, centerY, radius, 0, 2 * Math.PI, false);
                 context.fillStyle = color;
