@@ -32,7 +32,7 @@ $(function() {
     // var rip=document.getElementsByClassName("aside");
     ripple();
     function ripple(target){
-        console.log(16);
+        console.log(18);
         console.log(target);
         var canvas = {},
             centerX = 0,
@@ -45,6 +45,7 @@ $(function() {
             radius = 0,
             // 根据callback生成requestAnimationFrame动画
             requestAnimFrame = function () {
+                console.log(1);
                 return (
                     window.requestAnimationFrame    ||
                     window.mozRequestAnimationFrame  ||
@@ -57,6 +58,7 @@ $(function() {
             } (),
             // 为每个指定元素生成canves
             init = function () {
+                console.log(2);
                 containers = Array.prototype.slice.call(containers);
                 for (var i = 0; i < containers.length; i += 1) {
                     canvas = document.createElement('canvas');
@@ -70,6 +72,7 @@ $(function() {
             },
             // 点击并且获取需要的数据，如点击坐标、元素大小、颜色
             press = function (event) {
+                console.log(3);
                 color = event.toElement.parentElement.dataset.color;
                 element = event.toElement;
                 context = element.getContext('2d');
@@ -81,6 +84,7 @@ $(function() {
             },
             // 绘制圆形，并且执行动画
             draw = function () {
+                console.log(4);
                 context.beginPath();
                 context.arc(centerX, centerY, radius, 0, 2 * Math.PI, false);
                 context.fillStyle = color;
@@ -88,6 +92,7 @@ $(function() {
                 radius += 2;
                 // 通过判断半径小于元素宽度，不断绘制 radius += 2 的圆形
                 if (radius < element.width) {
+                    console.log(5);
                     requestAnimFrame(draw);
                 }
             };
