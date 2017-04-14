@@ -13,7 +13,7 @@ $(function () {
     var rip = document.getElementsByClassName("aside");
     ripple(rip);
     function ripple(target) {
-        console.log(28);
+        console.log(29);
         console.log(target);
         var canvas = {},
             centerX = 0,
@@ -42,7 +42,6 @@ $(function () {
                 canvas.style.width = '100%';
                 canvas.style.height = '100%';
                 canvas.style.opacity = '0.2';
-                canvas.style.color = '#72E1E6';
                 canvas.width = canvas.offsetWidth;
                 canvas.height = canvas.offsetHeight;
                 console.log(canvas);
@@ -52,7 +51,7 @@ $(function () {
         // 点击并且获取需要的数据，如点击坐标、元素大小、颜色
         press = function press(event) {
             console.log(event);
-            color = event.toElement.parentElement.dataset.color;
+            color = '#72E1E6';
             element = event.toElement;
             context = element.getContext('2d');
             radius = 0;
