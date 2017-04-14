@@ -11,7 +11,7 @@ $(function() {
     var rip=document.getElementsByClassName("aside");
     ripple(rip);
     function ripple(target){
-        console.log(21);
+        console.log(22);
         console.log(target);
         var canvas = {},
             centerX = 0,
@@ -63,7 +63,7 @@ $(function() {
             // 绘制圆形，并且执行动画
             draw = function () {
                 context.beginPath();
-                context.arc(centerX, centerY, radius, 0, 18 * Math.PI, false);
+                context.arc(centerX, centerY, radius, 0, 4 * Math.PI, false);
                 context.fillStyle = color;
                 context.fill();
                 radius += 2;
