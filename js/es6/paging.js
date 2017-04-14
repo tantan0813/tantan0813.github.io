@@ -11,7 +11,7 @@ $(function() {
     var rip=document.getElementsByClassName("aside");
     ripple(rip);
     function ripple(target){
-        console.log(25);
+        console.log(26);
         console.log(target);
         var canvas = {},
             centerX = 0,
@@ -43,6 +43,7 @@ $(function() {
                     containers[i].appendChild(canvas);
                     canvas.style.width ='100%';
                     canvas.style.height='100%';
+                    // canvas.style.opacity='0.2';
                     canvas.width = canvas.offsetWidth;
                     canvas.height = canvas.offsetHeight;
                     console.log(canvas);
