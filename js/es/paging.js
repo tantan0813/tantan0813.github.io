@@ -13,7 +13,7 @@ $(function () {
     var rip = document.getElementsByClassName("aside");
     ripple(rip);
     function ripple(target) {
-        console.log(29);
+        console.log(30);
         console.log(target);
         var canvas = {},
             centerX = 0,
@@ -41,7 +41,7 @@ $(function () {
                 containers[i].appendChild(canvas);
                 canvas.style.width = '100%';
                 canvas.style.height = '100%';
-                canvas.style.opacity = '0.2';
+                canvas.style.opacity = '0.1';
                 canvas.width = canvas.offsetWidth;
                 canvas.height = canvas.offsetHeight;
                 console.log(canvas);
@@ -69,7 +69,7 @@ $(function () {
             context.fill();
             radius += 2;
             // 通过判断半径小于元素宽度，不断绘制 radius += 2 的圆形
-            if (radius < element.width) {
+            if (radius < element.height) {
                 requestAnimFrame(draw);
             }
         };
