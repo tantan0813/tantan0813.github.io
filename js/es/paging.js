@@ -13,7 +13,7 @@ $(function () {
     var rip = document.getElementsByClassName("aside");
     ripple(rip);
     function ripple(target) {
-        console.log(5);
+        console.log(6);
         var canvas = {},
             centerX = 0,
             centerY = 0,
@@ -69,8 +69,9 @@ $(function () {
             // 通过判断半径小于元素宽度，不断绘制 radius += 2 的圆形
             if (radius < element.width / 3) {
                 requestAnimFrame(draw);
+            } else {
+                setTimeout(context.clearRect(0, 0, element.width, element.height), 800);
             }
-            setTimeout(context.clearRect(0, 0, element.width, element.height), 500);
         };
         //随机取颜色值rgb色值是十进制，10--16的进制转换
         function colorS() {
