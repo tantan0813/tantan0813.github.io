@@ -11,7 +11,7 @@ $(function() {
     var rip=document.getElementsByClassName("aside");
     ripple(rip);
     function ripple(target){
-        console.log(3);
+        console.log(4);
         var canvas = {},
             centerX = 0,
             centerY = 0,
@@ -64,11 +64,10 @@ $(function() {
                 context.arc(centerX, centerY, radius, 0, 2* Math.PI, false);
                 console.log(111);
                 context.fillStyle = colorS();
-                console.log(context.fillStyle);
                 context.fill();
                 radius += 2;
                 // 通过判断半径小于元素宽度，不断绘制 radius += 2 的圆形
-                if (radius < 40) {
+                if (radius < element.width/3) {
                     requestAnimFrame(draw);
                 }
             };
