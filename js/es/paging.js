@@ -14,7 +14,6 @@ $(function () {
     ripple(rip);
     function ripple(target) {
         console.log(30);
-        console.log(target);
         var canvas = {},
             centerX = 0,
             centerY = 0,
@@ -72,6 +71,12 @@ $(function () {
             if (radius < element.height) {
                 requestAnimFrame(draw);
             }
+        };
+        //随机取颜色值
+        colorS = function colorS() {
+            var num = function num(star, end) {
+                var n = Math.r;
+            };
         };
         init();
     }
