@@ -11,7 +11,7 @@ $(function() {
     var rip=document.getElementsByClassName("aside");
     ripple(rip);
     function ripple(target){
-        console.log(27);
+        console.log(28);
         console.log(target);
         var canvas = {},
             centerX = 0,
@@ -44,6 +44,7 @@ $(function() {
                     canvas.style.width ='100%';
                     canvas.style.height='100%';
                     canvas.style.opacity='0.2';
+                    canvas.style.color='#72E1E6';
                     canvas.width = canvas.offsetWidth;
                     canvas.height = canvas.offsetHeight;
                     console.log(canvas);
