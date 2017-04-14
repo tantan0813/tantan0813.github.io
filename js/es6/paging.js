@@ -11,7 +11,6 @@ $(function() {
     var rip=document.getElementsByClassName("aside");
     ripple(rip);
     function ripple(target){
-        console.log(32);
         var canvas = {},
             centerX = 0,
             centerY = 0,
@@ -35,7 +34,6 @@ $(function() {
             // 为每个指定元素生成canves
             init = function () {
                 containers = Array.prototype.slice.call(containers);
-                // console.log(containers.length);
                 for (var i = 0; i < containers.length; i += 1) {
                     canvas = document.createElement('canvas');
                     canvas.addEventListener('click', press, false);
