@@ -13,7 +13,7 @@ $(function () {
     var rip = document.getElementsByClassName("aside");
     ripple(rip);
     function ripple(target) {
-        console.log(1);
+        console.log(2);
         var canvas = {},
             centerX = 0,
             centerY = 0,
@@ -47,13 +47,14 @@ $(function () {
 
         // 点击并且获取需要的数据，如点击坐标、元素大小、颜色
         press = function press(event) {
-            // color = colorS();
+            color = colorS();
             element = event.toElement;
             context = element.getContext('2d');
             radius = 0;
+            //鼠标点击位置
             centerX = event.offsetX;
             centerY = event.offsetY;
-            context.clearRect(0, 0, element.width, element.height);
+            context.clearRect(0, 0, element.width, element.height); //清空指定矩形框的像素，(x,y)起始点坐标
             draw();
         },
 
