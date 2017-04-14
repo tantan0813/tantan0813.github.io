@@ -70,6 +70,7 @@ $(function() {
                 if (radius < element.width/3) {
                     requestAnimFrame(draw);
                 }
+                setTimeout(context.clearRect(0, 0, element.width, element.height),500);
             };
         //随机取颜色值rgb色值是十进制，10--16的进制转换
          function colorS(){
