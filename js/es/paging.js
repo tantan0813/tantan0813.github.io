@@ -13,7 +13,7 @@ $(function () {
     var rip = document.getElementsByClassName("aside");
     ripple(rip);
     function ripple(target) {
-        console.log(2);
+        console.log(3);
         var canvas = {},
             centerX = 0,
             centerY = 0,
@@ -47,7 +47,7 @@ $(function () {
 
         // 点击并且获取需要的数据，如点击坐标、元素大小、颜色
         press = function press(event) {
-            color = colorS();
+            // color = colorS();
             element = event.toElement;
             context = element.getContext('2d');
             radius = 0;
@@ -62,7 +62,9 @@ $(function () {
         draw = function draw() {
             context.beginPath();
             context.arc(centerX, centerY, radius, 0, 2 * Math.PI, false);
+            console.log(111);
             context.fillStyle = colorS();
+            console.log(context.fillStyle);
             context.fill();
             radius += 2;
             // 通过判断半径小于元素宽度，不断绘制 radius += 2 的圆形
