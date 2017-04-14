@@ -11,7 +11,7 @@ $(function() {
     var rip=document.getElementsByClassName("aside");
     ripple(rip);
     function ripple(target){
-        console.log(24);
+        console.log(25);
         console.log(target);
         var canvas = {},
             centerX = 0,
@@ -54,7 +54,7 @@ $(function() {
                 color = event.toElement.parentElement.dataset.color;
                 element = event.toElement;
                 context = element.getContext('2d');
-                radius = 20;
+                radius = 200;
                 centerX = event.offsetX;
                 centerY = event.offsetY;
                 context.clearRect(0, 0, element.width, element.height);
