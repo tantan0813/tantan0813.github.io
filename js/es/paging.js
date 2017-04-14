@@ -19,9 +19,7 @@ $(function () {
             centerX = 0,
             centerY = 0,
             color = '',
-
-        // containers = document.getElementsByClassName('material-design');
-        containers = target,
+            containers = target,
             context = {},
             element = {},
             radius = 0,
@@ -51,7 +49,7 @@ $(function () {
 
         // 点击并且获取需要的数据，如点击坐标、元素大小、颜色
         press = function press(event) {
-            console.log(22);
+            console.log(event);
             color = event.toElement.parentElement.dataset.color;
             element = event.toElement;
             context = element.getContext('2d');
@@ -65,13 +63,12 @@ $(function () {
         // 绘制圆形，并且执行动画
         draw = function draw() {
             context.beginPath();
-            context.arc(centerX, centerY, radius, 0, 2 * Math.PI, false);
+            context.arc(centerX, centerY, radius, 0, 10 * Math.PI, false);
             context.fillStyle = color;
             context.fill();
             radius += 2;
             // 通过判断半径小于元素宽度，不断绘制 radius += 2 的圆形
             if (radius < element.width) {
-                console.log(5);
                 requestAnimFrame(draw);
             }
         };

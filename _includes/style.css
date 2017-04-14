@@ -849,7 +849,7 @@ h3.about {
 /*页码样式*/
 .page_index{
   display: flex;
-  margin: 0 auto;
+  margin: 0 auto 30px;
   justify-content: center;
   line-height: 24px;
   text-align: center;
