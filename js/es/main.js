@@ -11,7 +11,6 @@ $(function () {
     var rip = document.getElementsByClassName("aside");
     ripple(rip);
     function ripple(target) {
-        console.log(6);
         var canvas = {},
             centerX = 0,
             centerY = 0,
