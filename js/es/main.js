@@ -22,7 +22,6 @@ $(function () {
             context = {},
             element = {},
             radius = 0,
-
         // 根据callback生成requestAnimationFrame动画,requestAnimationFrame 请求动画帧原理setTimeout
         requestAnimFrame = function () {
             return window.requestAnimationFrame || window.mozRequestAnimationFrame || window.oRequestAnimationFrame || window.msRequestAnimationFrame || function (callback) {
