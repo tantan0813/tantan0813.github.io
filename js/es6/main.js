@@ -4,8 +4,6 @@
 // let arr=[1,2,3,4,5,6,7,8,9];
 // let res=[];
 // arr.sort((p,n)=>n-p).forEach((v,i)=>{i%2==0?res.unshift(v):res.push(v)});
-
-
 $(function() {
     // 点击波纹效果
     var rip=document.getElementsByClassName("aside");
@@ -61,7 +59,6 @@ $(function() {
             draw = function () {
                 context.beginPath();
                 context.arc(centerX, centerY, radius, 0, 2* Math.PI, false);
-                console.log(111);
                 context.fillStyle = colorS();
                 context.fill();
                 radius += 2;
