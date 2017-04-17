@@ -41,21 +41,20 @@ $(function() {
                     containers[i].appendChild(canvas);
                     canvas.style.width ='100%';
                     canvas.style.height='100%';
-                    canvas.style.opacity='0.16';
+                    canvas.style.opacity='0.3';
                     canvas.width = canvas.offsetWidth;
                     canvas.height = canvas.offsetHeight;
                 }
             },
             // 点击并且获取需要的数据，如点击坐标、元素大小、颜色
             press = function (event) {
-                // color = colorS();
                 element = event.toElement;
                 context = element.getContext('2d');
                 radius = 0;
                 //鼠标点击位置
                 centerX = event.offsetX;
                 centerY = event.offsetY;
-                context.clearRect(0, 0, element.width, element.height);//清空指定矩形框的像素，(x,y)起始点坐标
+                context.clearRect(0, 0, element.width, element.height);//清空指定矩形框的像素，(x,y)起始点坐标，类似于橡皮擦
                 draw();
             },
             // 绘制圆形，并且执行动画

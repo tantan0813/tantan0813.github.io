@@ -29,7 +29,7 @@
   </div>
   {{ content }}
   <script src="../js/es/inspect_visitor_network_type.js" type="text/javascript"></script>
-  <script src="../js/es/paging.js" type="text/javascript"></script>
+  <script src="../js/es/main.js" type="text/javascript"></script>
   <script type="text/javascript">
     $(function() {
       //收放菜单
@@ -57,8 +57,6 @@
                 $("html").judge_net_type();
             }
         }
-
-//        page($(".artical-list>li"),3,$(".artical-list"),"page_active");
         page($(".list-art>li"),5,$(".list-art"),"page_active");
         function page(content,page_len,place,active){//参数依次为分页内容体、每页的内容数量，页码的添加位置，页码活跃时的样式
             var list = content;
