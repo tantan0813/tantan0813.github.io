@@ -87,7 +87,7 @@ $(function() {
     setTimeout( show_art("#art-page-all","#canvas-progress"),1300);
     function show_art(tar1,tar2){
         console.log(tar1,tar2);
-        console.log(6);
+        console.log(7);
         tar1.css("display","block");
         tar2.css("display","none");
     }
