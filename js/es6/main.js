@@ -84,10 +84,9 @@ $(function() {
     }
     //文章载入中进度条
     downLoad_play($("#play_01"));
-    setTimeout( show_art("#art-page-all","#canvas-progress"),1300);
     function show_art(tar1,tar2){
         console.log(tar1,tar2);
-        console.log(8);
+        console.log(9);
         tar1.css("display","block");
         tar2.css("display","none");
     }
@@ -111,7 +110,7 @@ $(function() {
             };
             this.particles = [];
             this.particleLift = 180;
-            this.hueStart = 0
+            this.hueStart = 0;
             this.hueEnd = 120;
             this.hue = 0;
             this.gravity = .15;
@@ -266,6 +265,7 @@ $(function() {
             cl.init();
         }
     }
+    setTimeout(show_art("#art-page-all","#canvas-progress"),1300);
 });
 
 
