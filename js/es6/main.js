@@ -251,7 +251,8 @@ $(function() {
             c.height = 100;
             var cw = c.width;
             var ch = c.height;
-            c.addClass="canvas-01";
+            // c.addClass="canvas-01";
+            c.setAttribute("class","canvas-01");
             target.append(c);
             var cl = new lightLoader(c, cw, ch);
 
