@@ -92,6 +92,7 @@ $(function() {
         tar2.css("display","none");
     }
     function downLoad_play(target){
+        console.log(target);
         var lightLoader = function(c, cw, ch){
 
             var _this = this;
