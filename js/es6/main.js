@@ -86,7 +86,7 @@ $(function() {
     downLoad_play($("#play_01"));
     var tar1=$("#art-page-all"),tar2 =$("#canvas-progress");
     function show_art(){
-        console.log(13);
+        console.log(14);
         tar1.css("display","block");
         tar2.css("display","none");
     }
