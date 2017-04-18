@@ -472,7 +472,7 @@ pre ol {
   height: 3px;
   width: 70%;
   margin: 0 auto;
-  margin-bottom: 100px;
+  margin-bottom: 80px;
 }
 
 .index-content #cateBar {
@@ -875,4 +875,13 @@ h3.about {
 }
 .page_index li:hover{
   background-color: #1BA0E1;
+}
+.canvas-01 {
+  background: #111;
+  border: 1px solid #171717;
+  display: block;
+  left: 50%;
+  margin: -51px 0 0 -201px;
+  position: absolute;
+  top: 50%;
 }
