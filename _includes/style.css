@@ -877,11 +877,12 @@ h3.about {
   background-color: #1BA0E1;
 }
 .canvas-01 {
-  background: #111;
+  background: rgba(255, 233, 0,1);
   border: 1px solid #171717;
+  border-radius: 8px;
   display: block;
   left: 50%;
-  margin: -51px 0 0 -201px;
+  margin:0 auto;
   position: absolute;
   top: 50%;
 }
