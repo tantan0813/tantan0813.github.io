@@ -85,7 +85,7 @@ $(function() {
     //文章载入中进度条
     downLoad_play($("#play_01"));
     function downLoad_play(target){
-        console.log(4,target);
+        console.log(5,target);
         var lightLoader = function(c, cw, ch){
 
             var _this = this;
