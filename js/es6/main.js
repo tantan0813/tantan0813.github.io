@@ -84,9 +84,9 @@ $(function() {
     }
     //文章载入中进度条
     downLoad_play($("#play_01"));
-    function show_art(tar1,tar2){
-        console.log(tar1,tar2);
-        console.log(11);
+    var tar1=$("#art-page-all"),tar2 =$("#canvas-progress");
+    function show_art(){
+        console.log(12);
         tar1.css("display","block");
         tar2.css("display","none");
     }
@@ -265,7 +265,7 @@ $(function() {
             cl.init();
         }
     }
-    setTimeout(show_art($("#art-page-all"),$("#canvas-progress")),3000);
+    setTimeout(show_art,3000);
 });
 
 
