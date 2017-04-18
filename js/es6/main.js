@@ -86,7 +86,7 @@ $(function() {
     downLoad_play($("#play_01"));
     setTimeout( show_art("#art-page-all","#canvas-progress"),1300);
     function show_art(tar1,tar2){
-        console.log(33);
+        console.log(44);
         tar1.setAttribute("display","block");
         tar2.setAttribute("display","none");
     }
