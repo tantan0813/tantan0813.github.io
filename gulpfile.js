@@ -4,14 +4,14 @@ var gulp = require('gulp'), //本地安装gulp所用到的地方
     minifycss = require('gulp-minify-css'),
     uglify = require('gulp-uglify'),
     gulp = require("gulp"),
-    uglify = require('gulp-uglify'),
-    rename = require('gulp-rename'),
+    // rename = require('gulp-rename'),
     babel = require("gulp-babel");
 const autoprefixer = require('gulp-autoprefixer'),
         livereload = require('gulp-livereload');
 gulp.task("ES6", function () {
     return gulp.src("js/es6/*.js")// ES6 源码存放的路径
         .pipe(babel())
+        .pipe(uglify())    //压缩
         .pipe(gulp.dest("js/es"))//转换成 ES5 存放的路径
         .pipe(livereload());
 });
@@ -19,6 +19,7 @@ gulp.task("ES6", function () {
 gulp.task('Less', function () {
     gulp.src('css/less/*.less') //该任务针对less下的文件less文件
         .pipe(less()) //该任务调用的模块
+        .pipe(minifycss())//压缩css
         .pipe(autoprefixer({
             browsers: ['last 4 versions', 'Android >= 4.0'],
             cascade: true, //是否美化属性值 默认：true 像这样：
