@@ -84,8 +84,13 @@ $(function() {
     }
     //文章载入中进度条
     downLoad_play($("#play_01"));
+    setTimeout( show_art("#art-page-all","#canvas-progress"),1300);
+    function show_art(tar1,tar2){
+        console.log(33);
+        tar1.setAttribute("display","block");
+        tar2.setAttribute("display","none");
+    }
     function downLoad_play(target){
-        console.log(5,target);
         var lightLoader = function(c, cw, ch){
 
             var _this = this;
@@ -251,8 +256,7 @@ $(function() {
             c.height = 100;
             var cw = c.width;
             var ch = c.height;
-            // c.addClass="canvas-01";
-            c.setAttribute("class","canvas-01");
+            c.setAttribute("id","canvas-progress");
             target.append(c);
             var cl = new lightLoader(c, cw, ch);
 

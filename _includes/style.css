@@ -876,7 +876,7 @@ h3.about {
 .page_index li:hover{
   background-color: #1BA0E1;
 }
-.canvas-01 {
+#canvas-progress {
   background: rgba(255, 233, 0,1);
   border: 1px solid #171717;
   border-radius: 8px;
@@ -884,5 +884,5 @@ h3.about {
   left: 40%;
   margin:0 auto;
   position: absolute;
-  top: 36%;
+  top: 26%;
 }
