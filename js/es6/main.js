@@ -82,6 +82,11 @@ $(function() {
         };
         init();
     }
+    //文章载入中进度条
+    downLoad_play();
+    function downLoad_play(){
+
+    }
 });
 
 
