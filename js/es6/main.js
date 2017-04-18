@@ -85,7 +85,7 @@ $(function() {
     //文章载入中进度条
     downLoad_play($("#play_01"));
     function downLoad_play(target){
-        console.log(2,target);
+        console.log(3,target);
         var lightLoader = function(c, cw, ch){
 
             var _this = this;
@@ -252,7 +252,7 @@ $(function() {
             var cw = c.width;
             var ch = c.height;
             c.addClass="canvas-01";
-            target.appendChild(c);
+            target.append(c);
             var cl = new lightLoader(c, cw, ch);
 
             setupRAF();
