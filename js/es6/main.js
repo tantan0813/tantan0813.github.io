@@ -256,7 +256,7 @@ $(function() {
         if(isCanvasSupported){
             //创建canvas标签
             var c = document.createElement('canvas');
-            c.width = 400;
+            c.width = 300;
             c.height = 100;
             var cw = c.width;
             var ch = c.height;
