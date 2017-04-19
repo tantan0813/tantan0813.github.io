@@ -121,9 +121,10 @@ $(function() {
             };
 
 
-            this.rand = function(rMi, rMa){return ~~((Math.random()*(rMa-rMi+1))+rMi);};//~~取整
+            this.rand = function(rMi, rMa){return ~~((Math.random()*(rMa-rMi+1))+rMi);};//~~取整；rmi-rma之间的随机整数
             this.hitTest = function(x1, y1, w1, h1, x2, y2, w2, h2){return !(x1 + w1 < x2 || x2 + w2 < x1 || y1 + h1 < y2 || y2 + h2 < y1);};
 
+            //更新loader
             this.updateLoader = function(){
                 if(this.loaded < 100){
                     this.loaded += this.loaderSpeed;
@@ -132,13 +133,20 @@ $(function() {
                 }
             };
 
+            //进度条绘制
             this.renderLoader = function(){
-                this.ctx.fillStyle = '#000';
+                //this.ctx为画布环境
+                this.ctx.fillStyle = '#000';//填充颜色
+                //context.fillRect(x,y,width,height);矩形填充（x，y）开始点，矩形宽高；
                 this.ctx.fillRect(this.loader.x, this.loader.y, this.loaderWidth, this.loaderHeight);
 
-                this.hue = this.hueStart + (this.loaded/100)*(this.hueEnd - this.hueStart);
+                this.hue = this.hueStart + (this.loaded/100)*(this.hueEnd - this.hueStart);//?
 
                 var newWidth = (this.loaded/100)*this.loaderWidth;
+                // HSLA(H,S,L,A)H：Hue(色调)。0(或360)表示红色，120表示绿色，240表示蓝色，也可取其他数值来指定颜色。取值为：0 - 360
+                // S：Saturation(饱和度)。取值为：0.0% - 100.0%
+                // L：Lightness(亮度)。取值为：0.0% - 100.0%
+                // A：Alpha透明度。取值0~1之间。
                 this.ctx.fillStyle = 'hsla('+this.hue+', 100%, 40%, 1)';
                 this.ctx.fillRect(this.loader.x, this.loader.y, newWidth, this.loaderHeight);
 
@@ -146,13 +154,17 @@ $(function() {
                 this.ctx.fillRect(this.loader.x, this.loader.y, newWidth, this.loaderHeight/2);
             };
 
+            //微粒生成
             this.Particle = function(){
+                // (x,y)微粒开始抛洒的位置
                 this.x = _this.loader.x + ((_this.loaded/100)*_this.loaderWidth) - _this.rand(0, 1);
                 this.y = _this.ch/2 + _this.rand(0,_this.loaderHeight)-_this.loaderHeight/2;
                 this.vx = (_this.rand(0,4)-2)/100;
                 this.vy = (_this.rand(0,_this.particleLift)-_this.particleLift*2)/100;
+                //微粒大小
                 this.width = _this.rand(1,4)/2;
                 this.height = _this.rand(1,4)/2;
+                //微粒颜色
                 this.hue = _this.hue;
             };
 
@@ -169,12 +181,13 @@ $(function() {
 
             this.Particle.prototype.render = function(){
                 _this.ctx.fillStyle = 'hsla('+this.hue+', 100%, '+_this.rand(50,70)+'%, '+_this.rand(20,100)/100+')';
-                _this.ctx.fillRect(this.x, this.y, this.width, this.height);
+                _this.ctx.fillRect(this.x, this.y, this.width, this.height);//绘制微粒
             };
 
             this.createParticles = function(){
-                var i = this.particleRate;
+                var i = this.particleRate;//微粒率，在此可以控制微粒数
                 while(i--){
+                    // 实例化微粒对象，并放入总微粒对象中；
                     this.particles.push(new this.Particle());
                 };
             };
@@ -183,7 +196,7 @@ $(function() {
                 var i = this.particles.length;
                 while(i--){
                     var p = this.particles[i];
-                    p.update(i);
+                    p.update(i);//不断更新微粒对象
                 };
             };
 
@@ -191,7 +204,7 @@ $(function() {
                 var i = this.particles.length;
                 while(i--){
                     var p = this.particles[i];
-                    p.render();
+                    p.render();//不断绘制微粒
                 };
             };
 
@@ -208,13 +221,13 @@ $(function() {
                     requestAnimationFrame(loopIt, _this.c);//为进度条canvas；创建requestAnimationFrame(callback,canvas);
                     _this.clearCanvas();//清除canvas已有的绘制记录
 
-                    _this.createParticles();
+                    _this.createParticles();//创建微粒
 
-                    _this.updateLoader();
-                    _this.updateParticles();
+                    _this.updateLoader();//更新进度条
+                    _this.updateParticles();//更新微粒
 
-                    _this.renderLoader();
-                    _this.renderParticles();
+                    _this.renderLoader();//绘制进度条
+                    _this.renderParticles();//绘制微粒
 
                 };
                 loopIt();
@@ -229,12 +242,14 @@ $(function() {
 
         var setupRAF = function(){
             var lastTime = 0;
+            //创建requestAnimationFrame对象
             var vendors = ['ms', 'moz', 'webkit', 'o'];
             for(var x = 0; x < vendors.length && !window.requestAnimationFrame; ++x){
                 window.requestAnimationFrame = window[vendors[x]+'RequestAnimationFrame'];
                 window.cancelAnimationFrame = window[vendors[x]+'CancelAnimationFrame'] || window[vendors[x]+'CancelRequestAnimationFrame'];
             };
 
+            // 如果不支持requestAnimationFrame
             if(!window.requestAnimationFrame){
                 window.requestAnimationFrame = function(callback, element){
                     var currTime = new Date().getTime();
