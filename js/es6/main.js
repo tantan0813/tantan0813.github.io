@@ -86,42 +86,42 @@ $(function() {
     downLoad_play($("#play_01"));
     var tar1=$("#art-page-all"),tar2 =$("#canvas-progress");
     function show_art(){
-        console.log(14);
         tar1.css("display","block");
         tar2.css("display","none");
     }
     function downLoad_play(target){
-        console.log(target);
+        //构造函数：lightLoader对象，c：canvas元素、cw：width、ch：height；
         var lightLoader = function(c, cw, ch){
 
             var _this = this;
             this.c = c;
-            this.ctx = c.getContext('2d');
+            this.ctx = c.getContext('2d');//创建canvas画布环境
             this.cw = cw;
             this.ch = ch;
 
-            this.loaded = 0;
-            this.loaderSpeed = .6;
-            this.loaderHeight = 10;
-            this.loaderWidth = 310;
+            this.loaded = 0;//已经载入的百分比n/100
+            this.loaderSpeed = .6;//进度条速度
+            this.loaderHeight = 10;//进度条占画布height
+            this.loaderWidth = 310;//进度条占画布width
+            //loader相对于canvas的位置
             this.loader = {
                 x: (this.cw/2) - (this.loaderWidth/2),
                 y: (this.ch/2) - (this.loaderHeight/2)
             };
             this.particles = [];
-            this.particleLift = 180;
-            this.hueStart = 0;
-            this.hueEnd = 120;
-            this.hue = 0;
-            this.gravity = .15;
-            this.particleRate = 4;
+            this.particleLift = 180;//微粒抛洒范围 高度
+            this.hueStart = 0;//开始的色调值
+            this.hueEnd = 120;//结束的色调值
+            this.hue = 0;//色调
+            this.gravity = .15;//自定义引力G
+            this.particleRate = 4;//微粒率
 
             this.init = function(){
                 this.loop();
             };
 
 
-            this.rand = function(rMi, rMa){return ~~((Math.random()*(rMa-rMi+1))+rMi);};
+            this.rand = function(rMi, rMa){return ~~((Math.random()*(rMa-rMi+1))+rMi);};//~~取整
             this.hitTest = function(x1, y1, w1, h1, x2, y2, w2, h2){return !(x1 + w1 < x2 || x2 + w2 < x1 || y1 + h1 < y2 || y2 + h2 < y1);};
 
             this.updateLoader = function(){
@@ -196,15 +196,17 @@ $(function() {
             };
 
             this.clearCanvas = function(){
+                //globalCompositeOperation 属性设置或返回如何将一个源（新的）图像绘制到目标（已有）的图像上;显示源图像
                 this.ctx.globalCompositeOperation = 'source-over';
-                this.ctx.clearRect(0,0,this.cw,this.ch);
-                this.ctx.globalCompositeOperation = 'lighter';
+                this.ctx.clearRect(0,0,this.cw,this.ch);//橡皮檫
+                this.ctx.globalCompositeOperation = 'lighter';//显示源图像 + 目标图像。
             };
 
             this.loop = function(){
                 var loopIt = function(){
-                    requestAnimationFrame(loopIt, _this.c);
-                    _this.clearCanvas();
+                    //this指向Windows；
+                    requestAnimationFrame(loopIt, _this.c);//为进度条canvas；创建requestAnimationFrame(callback,canvas);
+                    _this.clearCanvas();//清除canvas已有的绘制记录
 
                     _this.createParticles();
 
@@ -252,20 +254,22 @@ $(function() {
 
 
         if(isCanvasSupported){
+            //创建canvas标签
             var c = document.createElement('canvas');
             c.width = 400;
             c.height = 100;
             var cw = c.width;
             var ch = c.height;
             c.setAttribute("id","canvas-progress");
+            //向要显示的位置追加创建的canvas元素
             target.append(c);
-            var cl = new lightLoader(c, cw, ch);
+            var cl = new lightLoader(c, cw, ch);//实例化lightLoader对象，canvas元素、width、height；
 
             setupRAF();
             cl.init();
         }
     }
-    setTimeout(show_art,3000);
+    // setTimeout(show_art,3000);//控制文章/分页；和载入进度条的显示
 });
 
 
