@@ -877,12 +877,9 @@ h3.about {
   background-color: #1BA0E1;
 }
 #canvas-progress {
-  background: rgba(255, 233, 0,1);
+  background: #09F7F7;
   border: 1px solid #171717;
   border-radius: 8px;
   display: block;
-  /*left: 40%;*/
   margin:0 auto;
-  /*position: absolute;*/
-  /*top: 26%;*/
 }

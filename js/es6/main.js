@@ -269,7 +269,7 @@ $(function() {
             cl.init();
         }
     }
-    // setTimeout(show_art,3000);//控制文章/分页；和载入进度条的显示
+    setTimeout(show_art,3000);//控制文章/分页；和载入进度条的显示
 });
 
 
