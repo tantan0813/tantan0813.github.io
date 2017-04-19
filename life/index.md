@@ -17,7 +17,7 @@ layout: home
     <div id="play_01">
         <div id="art-page-all" style="display: none">
             <ul class="artical-list list-art">
-                 {% for post in site.categories.coding %}
+                 {% for post in site.categories.life %}
                  <li class="list" style="display: none">
                         <div class="table-article">
                             <div class="col-title">
