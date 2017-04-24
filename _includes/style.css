@@ -383,11 +383,11 @@ pre ol {
 
 .coding .aside {
   /*background-image: url(http://o86qmsuit.bkt.clouddn.com/image/coding_background.jpeg);*/
-  background-image: url(http://img.hb.aicdn.com/2594fbd5aae5337df0880b2d7535eeb89f6b3c6e1de0f-Vy52sS_fw658);
+  background-image: url(http://wx3.sinaimg.cn/mw690/a14ea38fgy1fexiu2zwarj20ia0rfadw.jpg);
 }
 
 .life .aside {
-  background-image: url(http://img.hb.aicdn.com/ef66ad4d531a33451a88511f235222a6066e3c6020727-aaQb9r_fw658);
+  background-image: url(http://wx4.sinaimg.cn/mw690/a14ea38fgy1fexiudhc8aj20ia0rfaf2.jpg);
 }
 /*.coding .aside {*/
   /*background-image: url(http://bpic.588ku.com/back_pic/03/86/14/5557ce5e35973aa.jpg);*/
@@ -865,7 +865,6 @@ h3.about {
 .page_index li{
   width: 20px;
   height: 24px;
-  border-radius: 50%;
   border: 1px solid black;
   margin-left: 20px;
   cursor: pointer;
