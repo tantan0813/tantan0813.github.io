@@ -765,7 +765,9 @@ h3.about {
     margin-top: 50px;
   }
   .coding .aside,
-  .life .aside
+  .life .aside,.aside{
+    display: none;
+  }
 }
 #aside{
   cursor: pointer;
