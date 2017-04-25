@@ -289,15 +289,12 @@ $(function() {
    //================================old progress end=======
 
     //=============================new progress  yellow man==============
-    console.log(33);
     function yellow(){
-
-
-
-
-
-
+        var tar1=$("#art-page-all"),tar2 =$(".wrapper");
+        tar1.css("display","block");
+        tar2.css("display","none");
     }
+    setTimeout(yellow,3000);
     //=============================new progress end==============
 });
 
