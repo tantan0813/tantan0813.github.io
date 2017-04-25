@@ -291,9 +291,9 @@ $(function() {
     //=============================new progress  yellow man==============
     function yellow(){
         var tar1=$("#art-page-all"),tar2 =$(".wrapper");
-        console.log(2);
+        console.log(3);
         tar1.show(800);
-        tar2.hide(400);
+        tar2.hide(200);
     }
     setTimeout(yellow,3000);
     //=============================new progress end==============
