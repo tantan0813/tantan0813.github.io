@@ -291,6 +291,7 @@ $(function() {
     //=============================new progress  yellow man==============
     function yellow(){
         var tar1=$("#art-page-all"),tar2 =$(".wrapper");
+        console.log(1);
         tar1.css("display","block");
         tar2.css("display","none");
     }
