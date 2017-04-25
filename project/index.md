@@ -16,33 +16,52 @@ layout: home
     <div class="cate-bar"><span id="cateBar"></span></div>
 
  <div id="play_01">
-    <div id="animate progress">
-        <ol>
-            <li class="run time">
-                <div class="stage">
-                    <div id="head-1"></div>
-                    <div id="head-2"></div>
-                    <div id="headear"></div>
-                    <div id="headear-radius"></div>
-                    <div id="white-square"></div>
-                    <div id="face-left"></div>
-                    <div id="face-right"></div>
-                    <div id="face"></div>
-                    <div id="brow-right"></div>
-                    <div id="eye-left"></div>
-                    <div id="eye-right"></div>
-                    <div id="brow-left"></div>
-                    <div id="back_mouse"></div>
-                    <div id="circle1"></div>
-                    <div id="circle2"></div>
-                    <div id="circle3"></div>
-                    <div id="circle4"></div>
-                    <div id="ear"></div>
-                    <div id="ear-square"></div>
-                </div>
-            </li>
-        </ol>
-    </div>
+ <div class="wrapper progress"><!-- 容器 -->
+                     <div class="littleH"><!-- 小黄人 -->
+                         <div class="bodyH"><!-- 身体 -->
+                             <div class="trousers"><!-- 裤子 -->
+                                 <div class="condoleBelt"><!-- 吊带 -->
+                                     <div class="left"></div>
+                                     <div class="right"></div>
+                                 </div>
+                                 <div class="trousers_top"></div><!-- 裤子突出的矩形部分 -->
+                                 <div class="pocket"></div><!-- 裤袋 -->
+                                 <!-- 三条线 -->
+                                 <span class="line_left"></span>
+                                 <span class="line_right"></span>
+                                 <span class="line_bottom"></span>
+                             </div>
+                         </div>
+                         <div class="hair"><!-- 头发 -->
+                             <span class="left_hair_one"></span>
+                             <span class="left_hair_two"></span>
+                         </div>
+                         <div class="eyes"><!-- 眼睛 -->
+                             <div class="leftEye"><!-- 左眼 -->
+                                 <div class="left_blackEye">
+                                     <div class="left_white"></div>
+                                 </div>
+                             </div>
+                             <div class="rightEye"><!-- 右眼 -->
+                                 <div class="right_blackEye">
+                                     <div class="right_white"></div>
+                                 </div>
+                             </div>
+                         </div>
+                         <div class="mouse"><!-- 嘴巴 -->
+                             <div class="mouse_shape"></div>
+                         </div>
+                         <div class="hands"><!-- 双手 -->
+                             <div class="leftHand"></div>
+                             <div class="rightHand"></div>
+                         </div>
+                         <div class="feet"><!-- 双脚 -->
+                             <div class="left_foot"></div>
+                             <div class="right_foot"></div>
+                         </div>
+                         <div class="groundShadow"></div><!-- 脚底阴影 -->
+                     </div>
+     </div>
      <div id="art-page-all" style="display: none">
             <ul class="artical-list">
             {% for post in site.categories.project %} {% if {{post.title}} !='Coming Conferences and Activities' %}
