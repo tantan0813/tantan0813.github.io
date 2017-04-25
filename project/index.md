@@ -7,7 +7,7 @@ layout: home
     <ul class="artical-cate">
       <li><a href="/coding"><span>程序人生</span></a></li>
       <li><a href="/life"><span>心情杂记</span></a></li>
-      <li class="on" style="text-align:center"><a href="/project"><span>工程项目</span></a></li>
+      <li class="on" style="text-align:center"><a href="/project"><span>项目历练</span></a></li>
     </ul>
 
     <div class="cate-bar"><span id="cateBar"></span></div>
