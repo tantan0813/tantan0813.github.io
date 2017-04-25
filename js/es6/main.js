@@ -299,7 +299,10 @@ $(function() {
         tar1.show(800);
         tar2.hide(100);
     }
-    setTimeout(yellow,3000);
+    function time(max,min){
+        return parseInt(Math.random()*(max-min+1)+min,10);
+    }
+    setTimeout(yellow,time(1500,4000));
     //=============================new progress end==============
 });
 
