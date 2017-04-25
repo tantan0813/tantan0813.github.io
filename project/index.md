@@ -1,8 +1,11 @@
 ---
 layout: home
 ---
-
-<div class="index-content life">
+<div class="bg-music" id="music">
+  <a class="mscBtn play" id="audioBtn" style="cursor:pointer;"></a>
+  <audio id="bgMusic" src="" autoplay="autoplay" loop="loop"></audio>
+</div>
+<div class="index-content project">
   <div class="section">
     <ul class="artical-cate">
       <li><a href="/coding"><span>程序人生</span></a></li>
@@ -40,24 +43,24 @@ layout: home
             </li>
         </ol>
     </div>
-    <ul class="artical-list">
-      {% for post in site.categories.life %} {% if {{post.title}} !='Coming Conferences and Activities' %}
-      <li>
-        <div class="table-article">
-          <div class="col-title">
-            <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-          </div>
-          <div class="col-date">
-            <p class="entry-date">{{ post.date|date:"%Y-%m-%d" }}</p>
-          </div>
-        </div>
-        <div class="title-desc">{{ post.description }}</div>
-      </li>
-      {% endif %} {% endfor %}
-    </ul>
- </div>
+     <div id="art-page-all" style="display: none">
+            <ul class="artical-list">
+            {% for post in site.categories.project %} {% if {{post.title}} !='Coming Conferences and Activities' %}
+                <li>
+                    <div class="table-article">
+                        <div class="col-title">
+                            <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+                        </div>
+                        <div class="col-date">
+                        <p class="entry-date">{{ post.date|date:"%Y-%m-%d" }}</p>
+                        </div>
+                    </div>
+                    <div class="title-desc">{{ post.description }}</div>
+                </li>
+            {% endif %} {% endfor %}
+            </ul>
+     </div>
+  </div>
 
-  </div>
-  <div class="aside">
-  </div>
+  <div class="aside"></div>
 </div>

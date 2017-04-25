@@ -79,7 +79,7 @@ layout: home
                  {% endfor %}
             </ul>
         </div>
-    </div>
+   </div>
 
 
   </div>
