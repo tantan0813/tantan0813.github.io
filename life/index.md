@@ -16,7 +16,7 @@ layout: home
     <div class="cate-bar"><span id="cateBar"></span></div>
 
     <div id="play_01">
-    <div class="wrapper"><!-- 容器 -->
+    <div class="wrapper progress"><!-- 容器 -->
                     <div class="littleH"><!-- 小黄人 -->
                         <div class="bodyH"><!-- 身体 -->
                             <div class="trousers"><!-- 裤子 -->
