@@ -766,7 +766,7 @@ h3.about {
   }
   .coding .aside,
   .life .aside,.aside{
-    /*display: none;*/
+    display: none;
   }
 }
 #aside{
