@@ -297,7 +297,7 @@ $(function() {
     function yellow(){
         var tar1=$("#art-page-all"),tar2 =$(".wrapper");
         tar1.show(800);
-        tar2.hide(200);
+        tar2.hide(100);
     }
     setTimeout(yellow,3000);
     //=============================new progress end==============
