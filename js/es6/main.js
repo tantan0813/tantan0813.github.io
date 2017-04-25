@@ -286,14 +286,14 @@ $(function() {
         }
     }
     //setTimeout(show_art,3000);//控制文章/分页；和载入进度条的显示
-   //================================old progress end=======
+   //======================old progress end==========
 
     //=============================new progress  yellow man==============
     function yellow(){
         var tar1=$("#art-page-all"),tar2 =$(".wrapper");
-        console.log(1);
+        console.log(2);
         tar1.css("display","block");
-        tar2.css("display","none");
+        tar2.slideUp(800);
     }
     setTimeout(yellow,3000);
     //=============================new progress end==============
