@@ -82,8 +82,9 @@ $(function() {
         };
         init();
     }
+    //====================old progress===========
     //文章载入中进度条
-    downLoad_play($("#play_01"));
+    //downLoad_play($("#play_01"));
     var tar1=$("#art-page-all"),tar2 =$("#canvas-progress");
     function show_art(){
         tar1.css("display","block");
@@ -284,7 +285,19 @@ $(function() {
             cl.init();
         }
     }
-    setTimeout(show_art,3000);//控制文章/分页；和载入进度条的显示
+    //setTimeout(show_art,3000);//控制文章/分页；和载入进度条的显示
+   //================================old progress end=======
+
+    //=============================new progress  yellow man==============
+    function yellow(){
+
+
+
+
+
+
+    }
+    //=============================new progress end==============
 });
 
 

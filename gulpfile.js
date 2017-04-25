@@ -73,7 +73,6 @@ gulp.task('deploy', function () {
 });
 //git提交
 gulp.task('commit', function(){
-    console.log(git,11);
     return gulp.src("../tantan0813.github.io/*")
         .pipe(git.add())
         .pipe(git.commit());
