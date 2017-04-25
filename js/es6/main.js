@@ -293,7 +293,7 @@ $(function() {
         var tar1=$("#art-page-all"),tar2 =$(".wrapper");
         console.log(2);
         tar1.show(800);
-        tar2.hide(800);
+        tar2.hide(400);
     }
     setTimeout(yellow,3000);
     //=============================new progress end==============
