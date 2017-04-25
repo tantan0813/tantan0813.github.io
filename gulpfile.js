@@ -9,7 +9,7 @@ var gulp = require('gulp'),
     runSequence = require('run-sequence'),//任务队列
     del = require('del'),//删除
     moment = require("moment"),
-    ftp = require('gulp-ftp'),
+    ftp = require('gulp-ftp'),//ftp配置
     gutil = require('gulp-util'),
     spritesmith = require('gulp.spritesmith'),//图片精灵
     argv = require('minimist')(process.argv.slice(2)),
@@ -48,7 +48,7 @@ gulp.task('sprite', function(){
     return gulp.src('img/*.png' )
         .pipe( spritesmith({
             imgName:'sprite.png',
-            cssName:'sprite.css'
+            cssName:'img-sprite.css'
         }) )
         .pipe( gulp.dest("img/after") );
 });
@@ -73,7 +73,8 @@ gulp.task('deploy', function () {
 });
 //git提交
 gulp.task('commit', function(){
-    return gulp.src(["../tantan0813.github.io/*/*/*","../tantan0813.github.io/*","../tantan0813.github.io/*/*"])
+    console.log(git,11);
+    return gulp.src("../tantan0813.github.io/*")
         .pipe(git.add())
         .pipe(git.commit());
 });
