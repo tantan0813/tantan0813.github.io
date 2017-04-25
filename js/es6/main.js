@@ -289,7 +289,7 @@ $(function() {
    //================================old progress end=======
 
     //=============================new progress  yellow man==============
-    console.log(1);
+    console.log(22);
     function yellow(){
 
 
