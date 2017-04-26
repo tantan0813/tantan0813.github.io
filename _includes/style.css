@@ -885,6 +885,5 @@ h3.about {
   height: 100%;
 }
 .whale :hover{
-  width: 54px;
-  height: 48px;
+  background-color: #1BA0E1;
 }
