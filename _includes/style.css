@@ -572,6 +572,27 @@ h3.about {
 #menuIndex li.h3 {
   padding-left: 25px;
 }
+.whale{
+  position: absolute;
+  top: 0;
+  left: 127px;
+  width: 44px;
+  height: 38px;
+  background: #09F7F7;
+  border-radius: 8px;
+}
+.whale img{
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.whale :hover{
+  transform:rotate(360deg) scale(1.2);
+  -webkit-transform:rotate(360deg) scale(1.2);
+  -moz-transform:rotate(360deg) scale(1.2);
+  -o-transform:rotate(360deg) scale(1.2);
+  -ms-transform:rotate(360deg) scale(1.2);
+}
 
 .about-wrapper {
   background: #7e96a9;
@@ -869,25 +890,4 @@ h3.about {
 }
 .page_index li:hover{
   background-color: #1BA0E1;
-}
-.whale{
-  position: absolute;
-  top: 0;
-  left: 127px;
-  width: 44px;
-  height: 38px;
-  background: #09F7F7;
-  border-radius: 8px;
-}
-.whale img{
-  display: block;
-  width: 100%;
-  height: 100%;
-}
-.whale :hover{
-  transform:rotate(360deg) scale(1.2);
-  -webkit-transform:rotate(360deg) scale(1.2);
-  -moz-transform:rotate(360deg) scale(1.2);
-  -o-transform:rotate(360deg) scale(1.2);
-  -ms-transform:rotate(360deg) scale(1.2);
 }
