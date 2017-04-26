@@ -13,9 +13,9 @@
             // alert(net_type);
             function addMusic(){
                 var target = document.getElementById("bgMusic");
-                //给coding life 添加不同的bg-music
-                if(url.indexOf("life") > 0) target.setAttribute("src", "http://m10.music.126.net/20170426144858/6000098919dcc304f3f238de352ba1fd/ymusic/fa8c/ae6c/7684/b9b20cd4c04b58346365c9d68c48de9c.mp3");
-                if(url.indexOf("project") > 0) target.setAttribute("src", "http://m10.music.126.net/20170426145949/3b96d4671e6aa35a28f317a54b03cde7/ymusic/eb06/e0ca/d372/e1d134b1a210e24a4395427fb8c5119e.mp3");
+                //给coding life 添加不同的bg-music//ymusic/fa8c/ae6c/7684/b9b20cd4c04b58346365c9d68c48de9c//ymusic/eb06/e0ca/d372/e1d134b1a210e24a4395427fb8c5119e
+                if(url.indexOf("life") > 0) target.setAttribute("src", "http://m10.music.126.net/20170426144858/6000098919dcc304f3f238de352ba1fd.mp3");
+                if(url.indexOf("project") > 0) target.setAttribute("src", "http://m10.music.126.net/20170426145949/3b96d4671e6aa35a28f317a54b03cde7.mp3");
                 if(url.indexOf("coding") > 0) target.setAttribute("src", "http://m2.music.126.net/VCXWODSoU-UOEwwkFP0_Sw==/7971459303055692.mp3");
             }
             if(net_type == "4"){
