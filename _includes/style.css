@@ -604,8 +604,9 @@ h3.about {
 
 @media screen and (max-width: 767px) {
   .about-wrapper {
-    width: 100%;
-    padding: 0 7.5% 30px;
+    width: 85%;
+    padding: 0 7.5% ;
+    margin-bottom:30px;
   }
 }
 
