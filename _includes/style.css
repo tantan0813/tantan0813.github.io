@@ -258,7 +258,7 @@ code {
   word-wrap: break-word;
 }
 pre {
-  background-color: #000;
+  background-color: #666666;
   padding: 15px;
   overflow: auto;
   margin-bottom: 40px;
@@ -278,6 +278,7 @@ pre code {
   border: none;
   padding: 0;
   word-wrap: normal;
+  color:white;
 }
 pre ol {
   margin-left: 25px;
