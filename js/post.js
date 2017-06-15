@@ -130,7 +130,7 @@ $(document).ready(function(){
             $(window).load(function(){
                 var scrollTop = [];
                 $.each($('#menuIndex li a'),function(index,item){
-                    var selector = $(item).attr('data-id') ? '#'+$(item).attr('data-id') : 'h1'
+                    var selector = $(item).attr('data-id') ? '#'+$(item).attr('data-id') : 'h1';
                     var top = $(selector).offset().top;
                     scrollTop.push(top);
                 });
@@ -183,7 +183,7 @@ $(document).ready(function(){
                     menuIndexTop = $('#menuIndex').offset().top;
                     menuIndexLeft = $('#menuIndex').offset().left;
 
-                    $(window).trigger('scroll')
+                    $(window).trigger('scroll');
                     $('#menuIndex').css('max-height',$(window).height()-80);
                 });
             })
