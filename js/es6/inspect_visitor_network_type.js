@@ -5,7 +5,7 @@
 // 3：iphone 无法判断\\firebox\\非WiFi    4：WiFi&PC
 (function ($) {
     //暂时找不到bg_music
-    $("#bgMusic").remove();
+    $("#music").remove();
     console.log("yes!");
     // $.fn.judge_net_type = function(options) {
     //     //根据用户的网络环境决定是否加载背景音乐 Whether to load music by User network type
