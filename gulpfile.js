@@ -11,7 +11,7 @@ var gulp = require('gulp'),
     moment = require("moment"),
     ftp = require('gulp-ftp'),//ftp配置
     gutil = require('gulp-util'),
-    spritesmith = require('gulp.spritesmith'),//图片精灵
+    spritesmith = require('gulp-spritesmith'),//图片精灵
     argv = require('minimist')(process.argv.slice(2)),
     zip = require('gulp-zip'),//打包压缩
     gp_deploy = require('gulp-gh-pages');//部署到git pages
@@ -103,7 +103,7 @@ gulp.task('ftp', function () {
 //gulp.dest(path[, options]) 处理完后文件生成路径
 
 //仅本地监听处理JavaScript、HTML、less//watch监听方法（改变时运行），run直接运行（自执行一次）
-gulp.task('Watch', function () {
+gulp.task('run', function () {
     livereload.listen();
     gulp.watch('css/less/*.less', ['Less']); //当所有less文件发生改变时，调用testLess任务
     gulp.watch('js/es6/*.js', ['ES6']); //当所有less文件发生改变时，调用任务
@@ -111,7 +111,7 @@ gulp.task('Watch', function () {
 //一键打包发送服务器
 gulp.task('git-v', function () {
     //runSequence 运行任务队列(括号内为同步任务，方括号为异步任务)
-    runSequence('clean',[ 'ES6','Less',"sprite"],'zip_new',function(){
+    runSequence('clean',[ 'ES6','Less',],'zip_new',function(){
     // runSequence('clean',"checkout",[ 'ES6','Less',"sprite"],'zip_new',"ftp",function(){
         console.log("你已成功提交"+ moment().format("YYYY-MM-D_HH-mm-ss_") +"版本")
     });
