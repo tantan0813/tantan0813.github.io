@@ -6,7 +6,6 @@
 (function ($) {
     //暂时找不到bg_music
     $("#music").remove();
-    console.log("yes!");
     // $.fn.judge_net_type = function(options) {
     //     //根据用户的网络环境决定是否加载背景音乐 Whether to load music by User network type
     //     isMusicLoad();

@@ -1,1 +1,1 @@
-"use strict";!function(e){e("#music").remove(),console.log("yes!")}(jQuery);
+"use strict";!function(e){e("#music").remove()}(jQuery);
