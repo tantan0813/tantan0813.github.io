@@ -1,23 +1,24 @@
 ---
 layout: post
-title: 简易方法安装npm依赖包及gulpfile.js的编写和使用
+title: npm依赖包及gulpfile.js
 description: 环境
 category: coding
 ---
+简易方法安装npm依赖包及gulpfile.js的编写和使用
 
 ## 简易方法安装npm依赖包
 
-按照需要什么依赖包再'npm install xxx'太过麻烦，需要一个个安装耗时费力。
+按照需要什么依赖包再`npm install xxx`太过麻烦，需要一个个安装耗时费力。
 
 简易方法安装npm依赖包：在需要安装的地方（最好是所有项目的同级目录或是上一级目录）新建一个package.json文件
 
 - [比较全的安装依赖包package.json文件][1]
 
-再在package.json的统计文件目录打开命令行'npm install'安装即可。
+再在package.json的统计文件目录打开命令行`npm install`安装即可。
 
 ## gulpfile.js的编写和使用
 
-### gulpfile.js的代码编写
+一、gulpfile.js的代码编写
 
 新建gulpfile.js文件
 
@@ -148,10 +149,11 @@ category: coding
 
 
    这一部分有些功能未实现，以后会完善。
-### gulpfile.js使用
+
+二、gulpfile.js使用
 
 在需要使用的地方引入gulpfile.js文件
 
-在'gulpfile.js'的位置打开命令行，输入'gulp ****';****为你实际需要执行的task任务名称。个人建议'gulpfile.js'代码最后写一个全部执行的任务运行队列
+在`gulpfile.js`的位置打开命令行，输入`gulp ****`;****为你实际需要执行的task任务名称。个人建议`gulpfile.js`代码最后写一个全部执行的任务运行队列
 
 [1]: https://github.com/tantan0813/posion/blob/master/package.json
